@@ -1,0 +1,132 @@
+Informe del paquete
+
+-----------------------------------------------------------------------------
+Documento:
+Nombre: Page_Web_Zemsa.ai
+Modo de color: Color RGB
+Perfil de color: Adobe RGB (1998)
+Unidades de regla: píxeles
+Dimensiones de la mesa de trabajo: 1920 px x 8897.126 px
+Mostrar imágenes en modo contorno: Desactivado
+Resaltar fuentes sustituidas: Desactivado
+Resaltar glifos sustituidos: Desactivado
+Conservar capacidad de edición de texto
+Simular papel de color: Desactivado
+
+-----------------------------------------------------------------------------
+Objetos de tintas planas:
+PANTONE 108 U (Lab)
+PANTONE 1235 C (Lab)
+PANTONE 144 C (Lab)
+PANTONE 165 C (Lab)
+PANTONE 1665 C (Lab)
+PANTONE 185 C (Lab)
+PANTONE 185 CV (CMYK)
+PANTONE 281 CV (CMYK)
+PANTONE 286 C (Lab)
+PANTONE 293 U (Lab)
+PANTONE 362 C (Lab)
+PANTONE 376 C (Lab)
+PANTONE 534 C (Lab)
+PG Dark Blue (293C) (CMYK)
+
+-----------------------------------------------------------------------------
+Fuentes no disponibles:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes protegidas no empaquetadas:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes:
+Gotham Bold (TrueType)
+Gotham-Black (OTF)
+Gotham Light (TrueType)
+Gotham Medium (TrueType)
+Gotham Book (TrueType)
+GothamBlack (OTF)
+GothamBold (OTF)
+Avenir 45 Book (OTF)
+Avenir 95 Black (OTF)
+Gotham-Bold (OTF)
+
+-----------------------------------------------------------------------------
+Fuentes incrustadas:
+Ninguno
+
+-----------------------------------------------------------------------------
+Enlaces no disponibles:
+Ninguno
+
+-----------------------------------------------------------------------------
+Imágenes enlazadas:
+
+D:\INK WORK\Zemza\Page_Web_Zemsa\Image\hospital.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 5595K, 1910 por 1000 píxeles
+Dimensiones: 923.693 por 483.609 puntos 
+Resolución: 148.881 por 148.881 píxeles por pulgada
+
+
+D:\INK WORK\Zemza\Page_Web_Zemsa\Image\one.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 2049K, 1024 por 683 píxeles
+Dimensiones: 932.244 por 621.8 puntos 
+Resolución: 79.087 por 79.087 píxeles por pulgada
+
+
+D:\INK WORK\Zemza\Page_Web_Zemsa\Image\estructura.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 4218K, 1600 por 900 píxeles
+Dimensiones: 1706.662 por 959.998 puntos 
+Resolución: 67.5 por 67.5 píxeles por pulgada
+
+
+D:\INK WORK\Zemza\Page_Web_Zemsa\Image\almacen-compressor.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 1411K, 850 por 567 píxeles
+Dimensiones: 917.169 por 611.806 puntos 
+Resolución: 66.727 por 66.727 píxeles por pulgada
+
+
+D:\INK WORK\Zemza\Page_Web_Zemsa\Image\RACKS.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 5505K, 2560 por 734 píxeles
+Dimensiones: 1147.946 por 329.138 puntos 
+Resolución: 160.565 por 160.565 píxeles por pulgada
+
+
+D:\INK WORK\Zemza\Page_Web_Zemsa\Image\94b03490e8d2690dff42b3e022532903_lance_wyman_LaModerna_01.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 2913K, 1130 por 880 píxeles
+Dimensiones: 322.289 por 250.986 puntos 
+Resolución: 252.444 por 252.444 píxeles por pulgada
+
+
+D:\INK WORK\Zemza\Page_Web_Zemsa\Image\one-thumb5.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 2165K, 1120 por 660 píxeles
+Dimensiones: 1354 por 797.893 puntos 
+Resolución: 59.557 por 59.557 píxeles por pulgada
+
+
+D:\INK WORK\Zemza\Page_Web_Zemsa\Image\one-thumb5.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 2165K, 1120 por 660 píxeles
+Dimensiones: 1920 por 1131.429 puntos 
+Resolución: 42 por 42 píxeles por pulgada
