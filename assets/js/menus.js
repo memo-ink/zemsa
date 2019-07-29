@@ -2,7 +2,7 @@ function bg(val,ima,url){
   var imagen='estructura.jpg';
   if(val>0){
        document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/"+ima+"')";
-       document.getElementById("ver-url").innerHTML = '<a href="'+url+'">VER M&Aacute;S</a>';
+       document.getElementById("ver-url").innerHTML = '<a href="'+url+val+'">VER M&Aacute;S</a>';
        switch (true) {
          case (val==1):
           document.getElementById("rec1").style.display = "inherit";
