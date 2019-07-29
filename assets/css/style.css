@@ -320,15 +320,31 @@ section{
 }
 .imenu{
   color: #fff;
+  font-family: avenir;
   font-size: 20px;
   width: 290px;
-  height: 50px;
+  height: 48px;
   background: #930000;
   border-top: 1px solid #B20800;
   border-right: 3px solid #b00;
   border-bottom: 1px solid #B20800;
   border-left: 3px solid #b00;
-  padding: 20px 0 0 15px !important;
+  padding: 22px 0 0 15px !important;
+}
+.imenu:hover{
+  font-family: avenirblack;
+  background: #B20800;
+  cursor: pointer;
+}
+.rec-trian{
+  float: right;
+  width: 0px;
+  height: 0px;
+  background: #930000;
+  border-top: 1px solid #B20800;
+  border-right: 3px solid #b00;
+  border-bottom: 1px solid #B20800;
+  border-left: 3px solid #b00;
 }
 .trian-bg-sombra{
   width: 0;
@@ -506,9 +522,9 @@ label{
     border-right: 1024px solid #B20800;
     border-top: 90px solid transparent;
   }
-  
+
   .contacto-conte{
-    width: 100%;	
+    width: 100%;
   }
 }
 @media (max-width: 980px){
