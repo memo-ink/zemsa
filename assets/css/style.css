@@ -295,21 +295,14 @@ section{
 }
 /*SECTION: SERVICIOS*/
 .menu-servicios{
-  width: 400px;
+  width: 360px;
   /*height: 722px;*/
   float: left;
   background: transparent;
   padding: 0px;
 }
-/*.ima-servicios{
-  width: 70%;
-  height: 710px;
-  float: left;
-  background: #eee;
-}*/
 .bg-ima{
   background: url('../img/estructura.jpg');
-  background: #eee;
   height: 649px;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -326,10 +319,11 @@ section{
   height: 48px;
   background: #930000;
   border-top: 1px solid #B20800;
-  border-right: 3px solid #b00;
+  border-right: 3px solid #B20800;
   border-bottom: 1px solid #B20800;
-  border-left: 3px solid #b00;
+  border-left: 3px solid #B20800;
   padding: 22px 0 0 15px !important;
+  float: inherit;
 }
 .imenu:hover{
   font-family: avenirblack;
@@ -338,21 +332,28 @@ section{
 }
 .rec-trian{
   float: right;
-  width: 0px;
+  width: 14px;
   height: 0px;
-  background: #930000;
-  border-top: 1px solid #B20800;
-  border-right: 3px solid #b00;
-  border-bottom: 1px solid #B20800;
-  border-left: 3px solid #b00;
+  border-top: 0px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 72px solid #B20800;
+  border-left: 0px solid #B20800;
 }
-.trian-bg-sombra{
-  width: 0;
-  height: 0;
-  border-top: 400px solid transparent;
-  border-right: 400px solid #b00;
-  border-bottom: 400px solid #B20800;
-  border-left: 400px solid #b00;
+#rec1,#rec2,#rec3,#rec4,#rec5,#rec6,#rec7,#rec8,#rec9,#rec10{
+  display: none;
+}
+.trian-bg-servicio,.trian-bg-experiencia{
+  background: url('../img/trian-servicio.svg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  width: 90%;
+  height: 100px;
+  margin: auto;
+}
+.trian-bg-experiencia{
+  background: url('../img/trian-experiencia.svg');
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 .ver{
   background: url('../img/ser-shadow.svg');
@@ -374,7 +375,7 @@ section{
   width: 100%;
   height: 200px;
   color:#fff;
-  font-family: avenirblack;
+  font-family: avenir;
   font-size: 20px;;
   background: #B20800;
   border: 1px solid #000;
@@ -553,7 +554,12 @@ label{
 }
 /*Movil*/
 @media (max-width: 700px) {
-
+  .menu-servicios{
+    width: 310px;
+  }
+  .imenu{
+    width: 240px;
+  }
 }
 @media (max-width: 630px){
   .about{

@@ -85,20 +85,19 @@
          <div id="bg-ima" class="container bg-ima">
             <div class="menu-servicios">
                <!--article class="imenu">Mec&aacute;nica de Suelos</article-->
-               <article class="imenu" onMouseOver="bg(1,'estructura.jpg');">Estructural</article><div class="rec-trian"></div>
-               <article class="imenu" onMouseOver="bg(2,'one-bg.jpg');">Sistema contra incendios</article>
-               <article class="imenu" onMouseOver="bg(3,'one-bg.png');">Instalaciones El&eacute;ctricas</article>
-               <article class="imenu" onMouseOver="bg(4,'estructura.jpg');">Alarma y Detección</article>
-               <article class="imenu" onMouseOver="bg(5,'estructura.jpg');">Aire Acondicionado</article>
-               <article class="imenu" onMouseOver="bg(6,'estructura.jpg');">Sistemas Especiales</article>
-               <article class="imenu" onMouseOver="bg(7,'estructura.jpg');">Mantenimiento Funcional</article>
-               <article class="imenu" onMouseOver="bg(8,'estructura.jpg');">Construcci&oacute;n</article>
-               <article class="imenu" onMouseOver="bg(9,'estructura.jpg');">Equipamiento Integral</article>
+               <article class="imenu" onMouseOver="bg(1,'estructura.jpg','#');" onMouseOut="bg(0,'estructura.jpg','#');">Estructural</article><div class="rec-trian" id="rec1"></div>
+               <article class="imenu" onMouseOver="bg(2,'one-bg.jpg','#');" onMouseOut="bg(0,'one-bg.jpg','#');">Sistema contra incendios</article><div class="rec-trian" id="rec2"></div>
+               <article class="imenu" onMouseOver="bg(3,'one-bg.png','#');" onMouseOut="bg(0,'one-bg.png','#');">Instalaciones El&eacute;ctricas</article><div class="rec-trian" id="rec3"></div>
+               <article class="imenu" onMouseOver="bg(4,'one-bg.jpg','#');" onMouseOut="bg(0,'one-bg.jpg','#');">Alarma y Detección</article><div class="rec-trian" id="rec4"></div>
+               <article class="imenu" onMouseOver="bg(5,'estructura.jpg','#');" onMouseOut="bg(0,'estructura.jpg','#');">Aire Acondicionado</article><div class="rec-trian" id="rec5"></div>
+               <article class="imenu" onMouseOver="bg(6,'one-bg.jpg','#');" onMouseOut="bg(0,'one-bg.jpg','#');">Sistemas Especiales</article><div class="rec-trian" id="rec6"></div>
+               <article class="imenu" onMouseOver="bg(7,'one-bg.png','#');" onMouseOut="bg(0,'one-bg.png','#');">Mantenimiento Funcional</article><div class="rec-trian" id="rec7"></div>
+               <article class="imenu" onMouseOver="bg(8,'estructura.jpg','#');" onMouseOut="bg(0,'estructura.jpg','#');">Construcci&oacute;n</article><div class="rec-trian" id="rec8"></div>
+               <article class="imenu" onMouseOver="bg(9,'one-bg.jpg','#');" onMouseOut="bg(0,'one-bg.jpg','#');">Equipamiento Integral</article><div class="rec-trian" id="rec9"></div>
             </div>
-            <!--div class="trian-bg-sombra"></div-->
-            <div class="ver"><a href="#">VER M&Aacute;S</a></div>
-            <!--div class="ima-servicios"></div-->
+            <div id="ver-url" class="ver"><a href="#">VER M&Aacute;S</a></div>
          </div>
+         <div class="trian-bg-servicio"></div>
       </section>
       <!--/Servicios-->
       <!--Experiencia-->
@@ -128,6 +127,7 @@
                </div>
             </div>
          </div>
+         <div class="trian-bg-experiencia"></div>
       </section>
       <!--/Experiencia-->
       <!--Clientes-->
@@ -177,29 +177,6 @@
       <!--/footer-->
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script>
-	  function bg(val,ima){
-      var imagen='estructura.jpg';
-	    if(val>1){
-			     document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/"+ima+"')";
-		  }else{
-			     document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/"+imagen+"')";
-		  }
-	  }
-    onload=bg(0,'');
-/*
-      $(document).ready(function(){
-        var imagen='estructura.jpg';
-        $(".imenu").hover(function(){
-          $(".bg-ima").css("background-image", "url('assets/img/"+imagen+"')");
-        });
-      });
-      $(document).ready(function(){
-        $(".imenu").hover(function() {
-          $("article",this).css('background-color', 'red');
-        });
-      });
-*/
-      </script>
-   </body>
+      <script src="assets/js/menus.js"></script>
+     </body>
 </html>
