@@ -643,6 +643,7 @@ imenu:focus {
 	border: 1px solid transparent;
 	border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
 	cursor: pointer;
+	display: none;
 }
 
 /* Style items (options): */
@@ -706,6 +707,10 @@ imenu:focus {
 	}
 	.menu-servicios {
 		display: none;
+	}
+	.select-items div,
+	.select-selected{
+		display: inherit;
 	}
 }
 
