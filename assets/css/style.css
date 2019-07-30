@@ -416,7 +416,7 @@ imenu:focus {
 	background-repeat: no-repeat;
 	background-position: left top;
 	width: 90%;
-	height: 100x;
+	height: 100px;
 	margin: auto;
 }
 
@@ -446,23 +446,57 @@ imenu:focus {
 	color: #fff;
 	font-family: avenir;
 	font-size: 20px;
-	;
 	background: #B20800;
-	border: 1px solid #000;
+	border: 1px solid #930000;
 }
 
 .item article {
 	text-align: right;
-	padding: 80px 25px;
+	padding: 90px 25px 50px 25px;
+	text-transform: uppercase;
 }
 
-.item a {
-	color: #fff;
+.item div {
+	text-align: right;
+	padding: 0 25px;
+	text-transform: uppercase;
 }
 
+.item:hover, .item a:hover{
+	font-family: avenirblack;
+	background: #930000;
+	cursor: pointer;
+}
 
 /*SECTION: CLIENTES*/
+.row-ima3{
+	height:100px;
+	width:50%;
+	margin:auto;
+	text-align: center;
+}
 
+.row-ima5{
+	min-height:550px;
+	text-align: center;
+	float: left;
+}
+
+.row-ima3 .item-logos{
+	height: 100px;
+	width: 27.33%;
+	padding: 15px 0%;
+	margin: 0 3%;
+	float: left;
+}
+
+.row-ima5 .item-logos{
+	height: 100px;
+	width: 14%;
+	padding: 15px 0;
+	margin: 0 3%;
+	float: left;
+}
 
 /*SECTION: CONTACTO*/
 
@@ -599,6 +633,16 @@ imenu:focus {
 .trian-red2 {
 	;
 	background: url('../img/trian-red2.svg');
+}
+
+.trian-foot{
+	margin-top: 80px;
+	background: url('../img/trian-foot.png');
+	background-image: url('../img/trian-foot.svg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 100%;
+	height: 100px;
 }
 /*SELECTOR SERVICIOS*/
 /* The container must be positioned relative: */
@@ -748,7 +792,11 @@ imenu:focus {
 
 /*Movil*/
 
-@media (max-width: 700px) {}
+@media (max-width: 700px) {
+	.row-ima5 .item-logos{
+		width: 43%;
+	}
+}
 
 @media (max-width: 630px) {
 	.about {
