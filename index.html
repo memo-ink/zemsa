@@ -82,21 +82,42 @@
             </div>
             <div class="trian-red2"></div>
          </div>
-         <div class="menu-select">
-
+         <div class="custom-select">
+            <select>
+               <option value="0">Seleccione un Servicio:</option>
+               <option value="1">Estructural</option>
+               <option value="2">Sistema contra incendios</option>
+               <option value="3">Instalaciones El&eacute;ctricas</option>
+               <option value="4">Alarma y Detecci&oacute;n</option>
+               <option value="5">Aire Acondicionado</option>
+               <option value="6">Sistemas Especiales</option>
+               <option value="7">Mantenimiento Funcional</option>
+               <option value="8">Construcci&oacute;n</option>
+               <option value="9">Equipamiento Integral</option>
+            </select>
+         </div>
          </div>
          <div id="bg-ima" class="container bg-ima">
             <div class="menu-servicios">
                <!--article class="imenu">Mec&aacute;nica de Suelos</article-->
-               <article id="imenu1" class="imenu" onMouseOver="bg(1,'estructura.jpg','#');">Estructural</article><div class="rec-trian" id="rec1"></div>
-               <article id="imenu2" class="imenu" onMouseOver="bg(2,'one-bg.jpg','#');">Sistema contra incendios</article><div class="rec-trian" id="rec2"></div>
-               <article id="imenu3" class="imenu" onMouseOver="bg(3,'one-bg.png','#');">Instalaciones El&eacute;ctricas</article><div class="rec-trian" id="rec3"></div>
-               <article id="imenu4" class="imenu" onMouseOver="bg(4,'one-bg.jpg','#');">Alarma y Detección</article><div class="rec-trian" id="rec4"></div>
-               <article id="imenu5" class="imenu" onMouseOver="bg(5,'estructura.jpg','#');">Aire Acondicionado</article><div class="rec-trian" id="rec5"></div>
-               <article id="imenu6" class="imenu" onMouseOver="bg(6,'one-bg.jpg','#');">Sistemas Especiales</article><div class="rec-trian" id="rec6"></div>
-               <article id="imenu7" class="imenu" onMouseOver="bg(7,'one-bg.png','#');">Mantenimiento Funcional</article><div class="rec-trian" id="rec7"></div>
-               <article id="imenu8" class="imenu" onMouseOver="bg(8,'estructura.jpg','#');">Construcci&oacute;n</article><div class="rec-trian" id="rec8"></div>
-               <article id="imenu9" class="imenu" onMouseOver="bg(9,'one-bg.jpg','#');">Equipamiento Integral</article><div class="rec-trian" id="rec9"></div>
+               <article id="imenu1" class="imenu" onMouseOver="bg(1,'estructura.jpg','#');">Estructural</article>
+               <div class="rec-trian" id="rec1"></div>
+               <article id="imenu2" class="imenu" onMouseOver="bg(2,'one-bg.jpg','#');">Sistema contra incendios</article>
+               <div class="rec-trian" id="rec2"></div>
+               <article id="imenu3" class="imenu" onMouseOver="bg(3,'one-bg.png','#');">Instalaciones El&eacute;ctricas</article>
+               <div class="rec-trian" id="rec3"></div>
+               <article id="imenu4" class="imenu" onMouseOver="bg(4,'one-bg.jpg','#');">Alarma y Detecci&oacute;n</article>
+               <div class="rec-trian" id="rec4"></div>
+               <article id="imenu5" class="imenu" onMouseOver="bg(5,'estructura.jpg','#');">Aire Acondicionado</article>
+               <div class="rec-trian" id="rec5"></div>
+               <article id="imenu6" class="imenu" onMouseOver="bg(6,'one-bg.jpg','#');">Sistemas Especiales</article>
+               <div class="rec-trian" id="rec6"></div>
+               <article id="imenu7" class="imenu" onMouseOver="bg(7,'one-bg.png','#');">Mantenimiento Funcional</article>
+               <div class="rec-trian" id="rec7"></div>
+               <article id="imenu8" class="imenu" onMouseOver="bg(8,'estructura.jpg','#');">Construcci&oacute;n</article>
+               <div class="rec-trian" id="rec8"></div>
+               <article id="imenu9" class="imenu" onMouseOver="bg(9,'one-bg.jpg','#');">Equipamiento Integral</article>
+               <div class="rec-trian" id="rec9"></div>
             </div>
             <div id="ver-url" class="ver"><a href="#">VER M&Aacute;S</a></div>
          </div>
@@ -116,12 +137,12 @@
          </div>
          <div class="container">
             <div class="menu-exp">
-              <div class="item">
-                 <article><a href="#">CONSTRUCCI&Oacute;N HOTELERA</a></article>
-              </div>
-              <div class="item">
-                 <article><a href="#">CONSTRUCCI&Oacute;N HOSPITALARIA</a></article>
-              </div>
+               <div class="item">
+                  <article><a href="#">CONSTRUCCI&Oacute;N HOTELERA</a></article>
+               </div>
+               <div class="item">
+                  <article><a href="#">CONSTRUCCI&Oacute;N HOSPITALARIA</a></article>
+               </div>
                <div class="item">
                   <article><a href="#">RACKS</a></article>
                </div>
@@ -155,31 +176,30 @@
          <div class="contacto-conte">
             <div class="mapa">
                <div class="map-conte">
-               	<h3>CONTACTO</h3>
-               	<div class="mapa1"></div>
+                  <h3>CONTACTO</h3>
+                  <div class="mapa1"></div>
                </div>
             </div>
             <div class="formulario">
                <div class="form-conte">
-               <form>
-                  <div class="label"><label>Nombre</label></div>
-                  <div class="input"><input type="text" id="nombre" name="nombre"></div>
-                  <div class="label"><label>Correo</label></div>
-                  <div class="input"><input type="email" id="email" name="email"></div>
-                  <div class="label"><label>Tel&eacute;fono</label></div>
-                  <div class="input"><input type="text" id="tel" name="tel"></div>
-                  <div class="label"><label>Mensaje</label></div>
-                  <textarea id="msj" name="msj"></textarea>
-                  <div class="btn"><button type="submit" class="btn-default">Enviar</button></div>
-               </form>
+                  <form>
+                     <div class="label"><label>Nombre</label></div>
+                     <div class="input"><input type="text" id="nombre" name="nombre"></div>
+                     <div class="label"><label>Correo</label></div>
+                     <div class="input"><input type="email" id="email" name="email"></div>
+                     <div class="label"><label>Tel&eacute;fono</label></div>
+                     <div class="input"><input type="text" id="tel" name="tel"></div>
+                     <div class="label"><label>Mensaje</label></div>
+                     <textarea id="msj" name="msj"></textarea>
+                     <div class="btn"><button type="submit" class="btn-default">Enviar</button></div>
+                  </form>
                </div>
             </div>
          </div>
          <div class="contact"><a href="#">T1. 01(442) 222 22 22</a> <a href="#">T2. 01(442) 222 22 22</a> <a href="#">C. 01(442) 222 22 22</a> <a href="mailto:info@zemsa.com">M. info@zemsa.com</a></div>
       </footer>
       <!--/footer-->
-
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="assets/js/menus.js"></script>
-     </body>
+   </body>
 </html>
