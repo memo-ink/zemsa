@@ -414,7 +414,7 @@ function bg_select(val){
   var imagen='bgmenu1.jpg';
   if(val>0){
     document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/bgmenu"+val+".jpg')";
-    document.getElementById("ver-url").innerHTML = '<a href="'+url+val+'">VER M&Aacute;S</a>';
+    document.getElementById("ver-url").innerHTML = '<a href="'+val+'">VER M&Aacute;S</a>';
   }else{
     document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/"+imagen+".jpg')";
   }

@@ -490,7 +490,7 @@ imenu:focus {
 .mapa h3 {
 	font-family: avenirblack;
 	font-size: 2rem;
-	margin: 6px 0 14px 0;
+	/*margin: 1em 0 1em 0;*/
 }
 
 .mapa1 {
@@ -534,7 +534,7 @@ imenu:focus {
 .contact {
 	width: 90%;
 	float: left;
-	padding: 15px 5% 15px 5%;
+	padding: 25px 5% 50px 5%;
 	background: #B20800;
 }
 
@@ -686,7 +686,7 @@ imenu:focus {
 		height: 500px;
 	}
 	.ver {
-		padding: 475px 25px 12px 25px;
+		padding: 467px 25px 12px 25px;
 	}
 	.trian-menu {
 		border-right: 580px solid #B20800;
