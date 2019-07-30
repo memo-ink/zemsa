@@ -457,6 +457,7 @@ imenu:focus {
 }
 
 .item div {
+	font-size: 18px;
 	text-align: right;
 	padding: 0 25px;
 	text-transform: uppercase;
