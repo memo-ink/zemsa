@@ -1,8 +1,8 @@
-function bg(val,ima,url){
-  var imagen='estructura.jpg';
+function bg(val,url){
+  var imagen='bgmenu1.jpg';
   if(val>0){
-       document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/"+ima+"')";
-       document.getElementById("imenu"+val).style.background = "#B20800";
+       //document.getElementById("imenu"+val).style.background = "#B20800";
+       document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/bgmenu"+val+".jpg')";
        document.getElementById("ver-url").innerHTML = '<a href="'+url+val+'">VER M&Aacute;S</a>';
        switch (true) {
          case (val==1):
@@ -329,7 +329,7 @@ function bg(val,ima,url){
          break;
        }
   }else{
-    document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/"+ima+"')";
+    document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/"+imagen+".jpg')";
   }
 }
 
@@ -352,6 +352,7 @@ for (i = 0; i < x.length; i++) {
     /*for each option in the original select element,
     create a new DIV that will act as an option item:*/
     c = document.createElement("DIV");
+    c.setAttribute("onclick", "bg_select("+j+")");//Agregado
     c.innerHTML = selElmnt.options[j].innerHTML;
     c.addEventListener("click", function(e) {
         /*when an item is clicked, update the original select box,
@@ -407,3 +408,14 @@ function closeAllSelect(elmnt) {
 /*if the user clicks anywhere outside the select box,
 then close all select boxes:*/
 document.addEventListener("click", closeAllSelect);
+
+
+function bg_select(val){
+  var imagen='bgmenu1.jpg';
+  if(val>0){
+    document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/bgmenu"+val+".jpg')";
+    document.getElementById("ver-url").innerHTML = '<a href="'+url+val+'">VER M&Aacute;S</a>';
+  }else{
+    document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/"+imagen+".jpg')";
+  }
+}
