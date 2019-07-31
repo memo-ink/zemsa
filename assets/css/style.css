@@ -19,7 +19,12 @@ gray:#8D929D
 
 @font-face {
 	font-family: gotham;
-	src: url('fonts/gotham-light_0.ttf'), url('fonts/gotham-medium_0.ttf'), url('fonts/gotham-book_0.ttf'), url('fonts/gotham-bold_0.ttf'), url('fonts/gothamblack_0.otf'), url('fonts/gotham-black_0.otf'), url('fonts/gothambold_0.otf'), url('fonts/gotham-bold_0.otf');
+	src: url('fonts/gotham-light_0.ttf'), url('fonts/gotham-book_0.ttf'), url('fonts/gotham-bold_0.ttf'), url('fonts/gothamblack_0.otf'), url('fonts/gotham-black_0.otf'), url('fonts/gothambold_0.otf'), url('fonts/gotham-bold_0.otf');
+}
+
+@font-face{
+	font-family: gothammedium;
+	src: url('fonts/gotham-medium_0.ttf');
 }
 
 body {
@@ -457,7 +462,8 @@ imenu:focus {
 }
 
 .item div {
-	font-size: 18px;
+	font-family: gothammedium !important;
+	font-size: 14px;
 	text-align: right;
 	padding: 0 25px;
 	text-transform: uppercase;
@@ -469,6 +475,42 @@ imenu:focus {
 	cursor: pointer;
 }
 
+#item1{
+	background: url('../img/item1_off.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: left top;
+}
+#item2{
+	background: url('../img/item2_off.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: left top;
+}
+#item3{
+	background: url('../img/item3_off.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: left top;
+}
+#item4{
+	background: url('../img/item4_off.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: left top;
+}
 /*SECTION: CLIENTES*/
 .row-ima3{
 	height:100px;
@@ -582,6 +624,8 @@ imenu:focus {
 }
 
 #msj {
+	font-family: gotham;
+	font-size: 18px;
 	width: 90%;
 	height: 100px;
 }
