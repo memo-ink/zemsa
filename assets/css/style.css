@@ -104,7 +104,7 @@ section {
 .trian-logo,
 .trian-menu,
 .trian-menu-sombra {
-	position: absolute;
+	position: fixed;
 }
 
 
@@ -132,6 +132,8 @@ section {
 }
 
 .btn-menu {
+	font-size: 20px;
+	color: #fff;
 	display: none;
 }
 
@@ -845,12 +847,28 @@ imenu:focus {
 @media (max-width: 800px) {
 	.btn-menu {
 		display: inherit;
-		float: right;
+		/*float: right;*/
+		position: absolute;
+		z-index: 1000;
+		right: 0;
 		margin: 30px 10px 0px 0px;
 		padding: 0 30px;
 	}
 	.navbar {
-		display: none;
+		position: absolute;
+		right: 0;
+		display: none;/*none;*/
+		width: 245px;
+		margin-top:57px;
+		background: #930000;
+	}
+	.navbar-nav li{
+		font-size: 20px;
+		display: inherit;
+		width: auto;
+	}
+	.navbar-nav li:hover{
+		background: #B20800;
 	}
 	.about-conte {
 		width: 90%;
@@ -892,9 +910,9 @@ imenu:focus {
 		margin: 20px 14px 0px 0px;
 		padding: 0 10px;
 	}
-	.navbar-nav li {
+	/*.navbar-nav li {
 		font-size: 12px;
-	}
+	}*/
 	.about-conte2 {
 		width: 100%;
 	}

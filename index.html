@@ -12,15 +12,18 @@
       <META NAME="KEYWORDS" CONTENT="">
       <!-- favicon -->
       <link rel="shortcut icon" href="./favicon.ico">
+      <!-- font-awesome 4.7.0 -->
+      <!--link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"-->
       <!-- style -->
-      <link rel="stylesheet" href="./assets/css/style.css" />
+      <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+
    </head>
    <body>
       <!--header-->
       <header>
          <div class="top">
             <a class="navbar-logo" href="index.html"><img src="assets/img/logo.png"  class="img-responsive" alt="logo zemsa"></a>
-            <a class="btn-menu" href="">MENU</a>
+            <span class="btn-menu"><i class="fa fa-bars"></i></span>
             <nav class="navbar">
                <ul class="navbar-nav">
                   <li><a href="#">Nosotros</a></li>
@@ -139,7 +142,7 @@
             <div class="menu-exp">
                <div id="item1" class="item" onmouseover="bg_item(1)" onmouseout="bg_item(0)">
                   <article>CONSTRUCCI&Oacute;N HOTELERA</article>
-                  <div>Ver m&aacute;s</div>
+                  <div><i class="fa fa-plus-circle"></i> Ver m&aacute;s</div>
                </div>
                <div id="item2" class="item" onmouseover="bg_item(2)" onmouseout="bg_item(0)">
                   <article>CONSTRUCCI&Oacute;N HOSPITALARIA</article>
@@ -262,5 +265,12 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="assets/js/menus.js"></script>
       <script src="php/form/form.js"></script>
+      <script src="https://kit.fontawesome.com/92ba5d4518.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script>
+      $( "btn-menu" ).click(function() {
+        $( "navbar" ).slideToggle( "slow" );
+      });
+      </script>
    </body>
 </html>
