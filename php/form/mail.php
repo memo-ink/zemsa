@@ -38,7 +38,7 @@
         } else {
             # Establezce un código de respuesta 500 (error interno del servidor).
             http_response_code(500);
-            echo "Error, no pudimos enviar tu mensaje.";
+            echo "Error: No pudimos enviar tu mensaje.";
         }
 
     } else {
