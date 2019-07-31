@@ -65,7 +65,7 @@
       </section>
       <!--/Valores-->
       <!--About-->
-      <section class="about">
+      <section id="nosotros" class="about">
          <div class="about-conte">
             <div class="svg-about1"></div>
             <article class="about-conte2">
@@ -226,7 +226,7 @@
             <div class="mapa">
                <div class="map-conte">
                   <h3>CONTACTO</h3>
-                  <div class="mapa1"></div>
+                  <div class="mapa1"><iframe src="mapa.html" frameborder="0" marginheight="0" marginwidth="0" id="mapa"></iframe></div>
                </div>
             </div>
             <div class="formulario">
@@ -266,10 +266,12 @@
       <script src="assets/js/menus.js"></script>
       <script src="php/form/form.js"></script>
       <script src="https://kit.fontawesome.com/92ba5d4518.js"></script>
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <!--script src="https://code.jquery.com/jquery-1.10.2.js"></script-->
       <script>
-      $( "btn-menu" ).click(function() {
-        $( "navbar" ).slideToggle( "slow" );
+      $(document).ready(function(){
+        $(".btn-menu").click(function() {
+          $(".navbar").slideToggle("slow");
+        });
       });
       </script>
    </body>
