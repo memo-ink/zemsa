@@ -454,5 +454,10 @@ function bg_item(val){
         document.getElementById("item4").style.backgroundImage = "url('assets/img/item4_off.png')";
       break;
     }
+  }else{
+    document.getElementById("item1").style.backgroundImage = "url('assets/img/item1_off.png')";
+    document.getElementById("item2").style.backgroundImage = "url('assets/img/item2_off.png')";
+    document.getElementById("item3").style.backgroundImage = "url('assets/img/item3_off.png')";
+    document.getElementById("item4").style.backgroundImage = "url('assets/img/item4_off.png')";
   }
 }
