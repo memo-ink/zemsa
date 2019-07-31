@@ -6,11 +6,12 @@
         $mail_to = "memojl08@gmail.com";
 
         # Envío de datos
-        $subject = trim($_POST["subject"]);
-        $name = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["name"])));
+        //$subject = trim($_POST["subject"]);
+		$subject='Centro de Contacto';
+        $name = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["nombre"])));
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-        $phone = trim($_POST["phone"]);
-        $message = trim($_POST["message"]);
+        $phone = trim($_POST["tel"]);
+        $message = trim($_POST["msj"]);
 
         if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR empty($phone) OR empty($subject) OR empty($message)) {
             # Establecer un código de respuesta y salida.

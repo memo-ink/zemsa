@@ -228,7 +228,16 @@
             </div>
             <div class="formulario">
                <div class="form-conte">
-                  <form>
+                  <form  class="contact__form" method="post" action="php/form/mail.php">
+                    <!-- form message -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="alert alert-success contact__msg" style="display:none;" role="alert">
+                                Tu mensaje fue enviado exitosamente.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end message -->
                      <div class="label"><label>Nombre</label></div>
                      <div class="input"><input type="text" id="nombre" name="nombre"></div>
                      <div class="label"><label>Correo</label></div>
@@ -252,5 +261,6 @@
       <!--/footer-->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="assets/js/menus.js"></script>
+      <script src="php/form/form.js"></script>
    </body>
 </html>
