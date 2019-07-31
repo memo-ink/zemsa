@@ -757,6 +757,24 @@ imenu:focus {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
+/*Bootstrap*/
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.alert-success{
+	color:#155724;
+	background-color:#d4edda;
+	border-color:#c3e6cb
+}
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
 
 /*RESPONSIVO*/
 @media (max-width: 1200px) {}
@@ -802,6 +820,9 @@ imenu:focus {
 	.select-items div,
 	.select-selected{
 		display: inherit;
+	}
+	#item1,#item2,#item3,#item4{
+		background-position: center top;
 	}
 }
 
@@ -851,6 +872,9 @@ imenu:focus {
 	}
 	.about-conte2 {
 		width: 70%;
+	}
+	#item1,#item2,#item3,#item4{
+		background-position: left top;
 	}
 }
 
@@ -904,5 +928,8 @@ imenu:focus {
 	.tit-conte2 h1,
 	.tit-conte2 h2 {
 		font-size: 2rem;
+	}
+	.item article{
+		padding: 80px 25px 50px 25px;
 	}
 }
