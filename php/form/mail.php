@@ -7,7 +7,7 @@
 
         # Envío de datos
         //$subject = trim($_POST["subject"]);
-		$subject='Centro de Contacto';
+		    $subject='Centro de Contacto';
         $name = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["nombre"])));
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $phone = trim($_POST["tel"]);

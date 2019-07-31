@@ -538,10 +538,12 @@ imenu:focus {
 }
 
 .input input {
-	font-size: 19px;
+	font-family: gotham;
+	font-size: 18px;
 	border: 0;
 	width: 90%;
 	height: 34px;
+	padding: 1px 5px;
 }
 
 .btn {
