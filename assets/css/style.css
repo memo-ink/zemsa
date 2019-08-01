@@ -298,7 +298,7 @@ section {
 /*SECTION: ABOUT*/
 
 .about {
-	padding-top: 10px;
+	padding-top: 100px;
 	min-height: 600px;
 }
 
@@ -347,7 +347,9 @@ section {
 
 
 /*SECTION: SERVICIOS*/
-
+.servicios{
+	padding-top: 50px;
+}
 .menu-servicios {
 	width: 360px;
 	/*height: 722px;*/
@@ -449,6 +451,9 @@ imenu:focus {
 
 
 /*SECTION: EXPERIENCIA*/
+.experiencia{
+	padding-top: 50px;
+}
 
 .item {
 	width: 100%;
@@ -517,6 +522,10 @@ imenu:focus {
 	background-position: left top;
 }
 /*SECTION: CLIENTES*/
+.clientes{
+	padding-top: 50px;
+}
+
 .row-ima3{
 	height:100px;
 	width:50%;
@@ -884,7 +893,18 @@ imenu:focus {
 	}
 }
 
-
+.tabla{
+  display: table;
+	width: 100%;
+}
+.fila{
+  display: table-row;
+}
+.col{
+  display: table-cell;
+  padding: 12px;
+	vertical-align: middle;
+}
 /*Movil*/
 
 @media (max-width: 700px) {
