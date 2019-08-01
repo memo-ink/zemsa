@@ -26,10 +26,10 @@
             <span class="btn-menu"><i class="fa fa-bars"></i></span>
             <nav class="navbar">
                <ul class="navbar-nav">
-                  <li><a href="#nosotros">Nosotros</a></li>
-                  <li><a href="#servicios">Servicios</a></li>
-                  <li><a href="#experiencia">Portafolio</a></li>
-                  <li><a href="#clientes">Clientes</a></li>
+                  <li id="nos"><a href="#nosotros">Nosotros</a></li>
+                  <li id="ser"><a href="#servicios">Servicios</a></li>
+                  <li id="exp"><a href="#experiencia">Portafolio</a></li>
+                  <li id="cli"><a href="#clientes">Clientes</a></li>
                </ul>
             </nav>
          </div>
@@ -268,7 +268,7 @@
       <script src="https://kit.fontawesome.com/92ba5d4518.js"></script>
       <script>
       $(document).ready(function(){
-        $(".btn-menu").click(function() {
+        $(".btn-menu,#nos,#ser,#exp,#cli").click(function() {
           $(".navbar").slideToggle("slow");
         });
       });
