@@ -960,6 +960,10 @@ imenu:focus {
 	.ver {
 		background-position: right bottom;
 	}
+	.input input, #msj{
+		width: 100%;
+	}
+	.mapa{ height: 450px;}
 }
 
 @media (max-width: 825px) {
