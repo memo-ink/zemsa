@@ -26,6 +26,9 @@ gray:#8D929D
 	font-family: gothammedium;
 	src: url('fonts/gotham-medium_0.ttf');
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
 	margin: 0;
@@ -536,7 +539,7 @@ imenu:focus {
 }
 
 .row-ima5 .item-logos{
-	height: 100px;
+	height: 140px;
 	width: 14%;
 	padding: 15px 0;
 	margin: 0 3%;
