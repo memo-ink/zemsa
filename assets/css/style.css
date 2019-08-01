@@ -22,12 +22,13 @@ gray:#8D929D
 	src: url('fonts/gotham-light_0.ttf'), url('fonts/gotham-book_0.ttf'), url('fonts/gotham-bold_0.ttf'), url('fonts/gothamblack_0.otf'), url('fonts/gotham-black_0.otf'), url('fonts/gothambold_0.otf'), url('fonts/gotham-bold_0.otf');
 }
 
-@font-face{
+@font-face {
 	font-family: gothammedium;
 	src: url('fonts/gotham-medium_0.ttf');
 }
+
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -347,9 +348,11 @@ section {
 
 
 /*SECTION: SERVICIOS*/
-.servicios{
+
+.servicios {
 	padding-top: 50px;
 }
+
 .menu-servicios {
 	width: 360px;
 	/*height: 722px;*/
@@ -451,7 +454,8 @@ imenu:focus {
 
 
 /*SECTION: EXPERIENCIA*/
-.experiencia{
+
+.experiencia {
 	padding-top: 50px;
 }
 
@@ -479,13 +483,14 @@ imenu:focus {
 	text-transform: uppercase;
 }
 
-.item:hover, .item a:hover{
+.item:hover,
+.item a:hover {
 	font-family: avenirblack;
 	background: #930000;
 	cursor: pointer;
 }
 
-#item1{
+#item1 {
 	background: url('../img/item1_off.png');
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -494,7 +499,8 @@ imenu:focus {
 	background-size: cover;
 	background-position: left top;
 }
-#item2{
+
+#item2 {
 	background: url('../img/item2_off.png');
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -503,7 +509,8 @@ imenu:focus {
 	background-size: cover;
 	background-position: left top;
 }
-#item3{
+
+#item3 {
 	background: url('../img/item3_off.png');
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -512,7 +519,8 @@ imenu:focus {
 	background-size: cover;
 	background-position: left top;
 }
-#item4{
+
+#item4 {
 	background: url('../img/item4_off.png');
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -521,25 +529,28 @@ imenu:focus {
 	background-size: cover;
 	background-position: left top;
 }
+
+
 /*SECTION: CLIENTES*/
-.clientes{
+
+.clientes {
 	padding-top: 50px;
 }
 
-.row-ima3{
-	height:100px;
-	width:50%;
-	margin:auto;
+.row-ima3 {
+	height: 100px;
+	width: 50%;
+	margin: auto;
 	text-align: center;
 }
 
-.row-ima5{
-	min-height:550px;
+.row-ima5 {
+	min-height: 550px;
 	text-align: center;
 	float: left;
 }
 
-.row-ima3 .item-logos{
+.row-ima3 .item-logos {
 	height: 100px;
 	width: 27.33%;
 	padding: 15px 0%;
@@ -547,13 +558,14 @@ imenu:focus {
 	float: left;
 }
 
-.row-ima5 .item-logos{
+.row-ima5 .item-logos {
 	height: 140px;
 	width: 14%;
 	padding: 15px 0;
 	margin: 0 3%;
 	float: left;
 }
+
 
 /*SECTION: CONTACTO*/
 
@@ -644,10 +656,11 @@ imenu:focus {
 	height: 100px;
 }
 
-#mapa{
+#mapa {
 	width: 100%;
 	height: 100%;
 }
+
 
 /* TITULOS - TRIANGULOS ROJO*/
 
@@ -700,7 +713,7 @@ imenu:focus {
 	background: url('../img/trian-red2.svg');
 }
 
-.trian-foot{
+.trian-foot {
 	margin-top: 80px;
 	background: url('../img/trian-foot.png');
 	background-image: url('../img/trian-foot.svg');
@@ -709,22 +722,32 @@ imenu:focus {
 	width: 100%;
 	height: 100px;
 }
+
+
 /*SELECTOR SERVICIOS*/
+
+
 /* The container must be positioned relative: */
+
 .custom-select {
 	margin: auto;
 	width: 90%;
 	position: relative;
 	font-family: Arial;
 }
+
 .custom-select select {
-	display: none;/*hide original SELECT element: */
+	display: none;
+	/*hide original SELECT element: */
 }
+
 .select-selected {
 	background-color: #B20800;
 }
 
+
 /* Style the arrow inside the select element: */
+
 .select-selected:after {
 	position: absolute;
 	content: "";
@@ -736,13 +759,17 @@ imenu:focus {
 	border-color: #fff transparent transparent transparent;
 }
 
+
 /* Point the arrow upwards when the select box is open (active): */
+
 .select-selected.select-arrow-active:after {
 	border-color: transparent transparent #fff transparent;
 	top: 7px;
 }
 
+
 /* style the items (options), including the selected item: */
+
 .select-items div,
 .select-selected {
 	font-size: 16px;
@@ -755,7 +782,9 @@ imenu:focus {
 	display: none;
 }
 
+
 /* Style items (options): */
+
 .select-items {
 	position: absolute;
 	background-color: #B20800;
@@ -765,7 +794,9 @@ imenu:focus {
 	z-index: 99;
 }
 
+
 /* Hide the items when the select box is closed: */
+
 .select-hide {
 	display: none;
 }
@@ -775,27 +806,98 @@ imenu:focus {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
+
 /*Bootstrap*/
+
 .alert-danger {
-    color: #721c24;
-    background-color: #f8d7da;
-    border-color: #f5c6cb;
+	color: #721c24;
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
 }
-.alert-success{
-	color:#155724;
-	background-color:#d4edda;
-	border-color:#c3e6cb
+
+.alert-success {
+	color: #155724;
+	background-color: #d4edda;
+	border-color: #c3e6cb
 }
+
 .alert {
-    position: relative;
-    padding: .75rem 1.25rem;
-    margin-bottom: 1rem;
-    border: 1px solid transparent;
-    border-radius: .25rem;
+	position: relative;
+	padding: .75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+}
+
+.btn-m {
+	min-height: 30px;
+	max-width: 50px;
+	display: none;
+}
+
+.btn-menu,
+.btn-menu:after,
+.btn-menu:before {
+	background-color: #fff;
+	position: absolute;
+	width: 40px;
+	height: 4px;
+	border-radius: 5px;
+	content: '';
+	transition-timing-function: ease;
+	transition-duration: .2s;
+	transition-property: opacity, -webkit-transform;
+	transition-property: transform, opacity;
+	transition-property: transform, opacity, -webkit-transform;
+}
+
+.btn-menu:before {
+	top: 10px;
+}
+
+.btn-menu:after {
+	top: 20px;
+}
+
+.btn-m.open .btn-menu {
+	-webkit-transform: translate3d(0, 10px, 0) rotate(45deg);
+	transform: translate3d(0, 10px, 0) rotate(45deg);
+}
+
+.btn-m.open .btn-menu:after {
+	-webkit-transform: translate3d(0, -20px, 0) rotate(-90deg);
+	transform: translate3d(0, -20px, 0) rotate(-90deg);
+}
+
+.btn-m.open .btn-menu:before {
+	-webkit-transform: translate3d(0, -20px, 0) rotate(90deg);
+	transform: translate3d(0, -20px, 0) rotate(90deg);
+	opacity: 0;
+}
+
+.tabla {
+	display: table;
+	width: 100%;
+}
+
+.fila {
+	display: table-row;
+}
+
+.col {
+	display: table-cell;
+	padding: 12px 50px;
+	vertical-align: middle;
 }
 
 /*RESPONSIVO*/
-@media (max-width: 1200px) {}
+
+@media (max-width: 1200px) {
+	.col {
+		padding: 12px 24px;
+	}
+}
+
 
 /*TABLET*/
 
@@ -836,11 +938,17 @@ imenu:focus {
 		display: none;
 	}
 	.select-items div,
-	.select-selected{
+	.select-selected {
 		display: inherit;
 	}
-	#item1,#item2,#item3,#item4{
+	#item1,
+	#item2,
+	#item3,
+	#item4 {
 		background-position: center top;
+	}
+	.col {
+		padding: 12px 12px;
 	}
 }
 
@@ -861,31 +969,34 @@ imenu:focus {
 }
 
 @media (max-width: 800px) {
+	.btn-m {
+		display: inherit;
+	}
 	.btn-menu {
 		display: inherit;
 		/*float: right;*/
 		position: absolute;
 		z-index: 100;
 		right: 0;
-		margin: 30px 10px 0px 0px;
-		padding: 0 30px;
+		margin: 30px 22px 0px 0px;
 		cursor: pointer;
 	}
 	.navbar {
 		position: absolute;
 		z-index: 1000;
 		right: 0;
-		display: none;/*none;*/
+		display: none;
+		/*none;*/
 		width: 245px;
-		margin-top:57px;
+		margin-top: 57px;
 		background: #930000;
 	}
-	.navbar-nav li{
+	.navbar-nav li {
 		font-size: 20px;
 		display: inherit;
 		width: auto;
 	}
-	.navbar-nav li:hover{
+	.navbar-nav li:hover {
 		background: #B20800;
 	}
 	.about-conte {
@@ -893,22 +1004,11 @@ imenu:focus {
 	}
 }
 
-.tabla{
-  display: table;
-	width: 100%;
-}
-.fila{
-  display: table-row;
-}
-.col{
-  display: table-cell;
-  padding: 12px;
-	vertical-align: middle;
-}
+
 /*Movil*/
 
 @media (max-width: 700px) {
-	.row-ima5 .item-logos{
+	.row-ima5 .item-logos {
 		width: 43%;
 	}
 }
@@ -920,7 +1020,10 @@ imenu:focus {
 	.about-conte2 {
 		width: 70%;
 	}
-	#item1,#item2,#item3,#item4{
+	#item1,
+	#item2,
+	#item3,
+	#item4 {
 		background-position: left top;
 	}
 }
@@ -935,13 +1038,6 @@ imenu:focus {
 }
 
 @media (max-width: 500px) {
-	.btn-menu {
-		margin: 20px 14px 0px 0px;
-		padding: 0 10px;
-	}
-	/*.navbar-nav li {
-		font-size: 12px;
-	}*/
 	.about-conte2 {
 		width: 100%;
 	}
@@ -963,11 +1059,17 @@ imenu:focus {
 }
 
 @media (max-width: 400px) {
-	.art-m,
-	.art-v {
-		padding-top: 50px !important;
+	.art-m {
+		padding-top: 40px !important;
 		font-size: 16px;
 		width: 300px;
+		float: left;
+	}
+	.art-v {
+		padding-top: 30px !important;
+		font-size: 16px;
+		width: 300px;
+		float: left;
 	}
 	.tit-conte2 {
 		width: 220px;
@@ -976,7 +1078,7 @@ imenu:focus {
 	.tit-conte2 h2 {
 		font-size: 2rem;
 	}
-	.item article{
+	.item article {
 		padding: 80px 25px 50px 25px;
 	}
 }
