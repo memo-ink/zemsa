@@ -916,7 +916,7 @@ imenu:focus {
 	background: white;
 	padding: 20px 30px;
 	text-align: left;
-	max-width: 73%;
+	max-width: 43%;/*75%;*/
 	margin: 40px auto;
 	position: relative;
 }
@@ -1214,7 +1214,7 @@ imenu:focus {
 		padding: 2%;
 	}
 	#small-dialog,#small-dialog1,#small-dialog2,#small-dialog3,#small-dialog4,#small-dialog5,#small-dialog6,#small-dialog7,#small-dialog8,#small-dialog9,#small-dialog10 {
-		max-width: 40%;/*75%;*/
+		max-width: 90%;/*75%;*/
 	}
 }
 
