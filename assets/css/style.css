@@ -726,13 +726,17 @@ imenu:focus {
 }
 
 .trian-foot {
-	margin-top: 80px;
+	margin-top: 150px;
 	background: url('../img/trian-foot.png');
 	background-image: url('../img/trian-foot.svg');
 	background-repeat: no-repeat;
-	background-position: top left;
+	background-position: bottom center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	width: 100%;
-	height: 100px;
+	height: 195px;
 }
 
 
@@ -904,11 +908,15 @@ imenu:focus {
 
 
 /* Styles for dialog window */
+#pop2,#pop3,#pop4,#pop5,#pop6,#pop7,#pop8,#pop9,#pop10{
+ display: none;
+}
+
 #small-dialog,#small-dialog1,#small-dialog2,#small-dialog3,#small-dialog4,#small-dialog5,#small-dialog6,#small-dialog7,#small-dialog8,#small-dialog9,#small-dialog10 {
 	background: white;
 	padding: 20px 30px;
 	text-align: left;
-	max-width: 400px;
+	max-width: 75%;
 	margin: 40px auto;
 	position: relative;
 }

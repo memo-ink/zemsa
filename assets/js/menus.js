@@ -3,6 +3,7 @@ function bg(val,url){
   if(val>0){
        //document.getElementById("imenu"+val).style.background = "#B20800";
        document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/bgmenu"+val+".jpg')";
+
        //document.getElementById("ver-url").innerHTML = '<a id="ver'+val+'" class="popup-with-zoom-anim" href="#small-dialog">VER M&Aacute;S</a>';
        switch (true) {
          case (val==1):
@@ -36,6 +37,15 @@ function bg(val,url){
           document.getElementById("imenu8").style.fontFamily= "avenir";
           document.getElementById("imenu9").style.fontFamily= "avenir";
           //document.getElementById("imenu10").style.fontFamily= "avenir";
+          document.getElementById("pop1").style.display = "inherit";
+          document.getElementById("pop2").style.display = "none";
+          document.getElementById("pop3").style.display = "none";
+          document.getElementById("pop4").style.display = "none";
+          document.getElementById("pop5").style.display = "none";
+          document.getElementById("pop6").style.display = "none";
+          document.getElementById("pop7").style.display = "none";
+          document.getElementById("pop8").style.display = "none";
+          document.getElementById("pop9").style.display = "none";
          break;
          case (val==2):
          document.getElementById("rec1").style.display = "none";
@@ -68,6 +78,15 @@ function bg(val,url){
          document.getElementById("imenu8").style.fontFamily= "avenir";
          document.getElementById("imenu9").style.fontFamily= "avenir";
          //document.getElementById("imenu10").style.fontFamily= "avenir";
+         document.getElementById("pop1").style.display = "none";
+         document.getElementById("pop2").style.display = "inherit";
+         document.getElementById("pop3").style.display = "none";
+         document.getElementById("pop4").style.display = "none";
+         document.getElementById("pop5").style.display = "none";
+         document.getElementById("pop6").style.display = "none";
+         document.getElementById("pop7").style.display = "none";
+         document.getElementById("pop8").style.display = "none";
+         document.getElementById("pop9").style.display = "none";
          break;
          case (val==3):
          document.getElementById("rec1").style.display = "none";
@@ -100,6 +119,15 @@ function bg(val,url){
          document.getElementById("imenu8").style.fontFamily= "avenir";
          document.getElementById("imenu9").style.fontFamily= "avenir";
          //document.getElementById("imenu10").style.fontFamily= "avenir";
+         document.getElementById("pop1").style.display = "none";
+         document.getElementById("pop2").style.display = "none";
+         document.getElementById("pop3").style.display = "inherit";
+         document.getElementById("pop4").style.display = "none";
+         document.getElementById("pop5").style.display = "none";
+         document.getElementById("pop6").style.display = "none";
+         document.getElementById("pop7").style.display = "none";
+         document.getElementById("pop8").style.display = "none";
+         document.getElementById("pop9").style.display = "none";
          break;
          case (val==4):
          document.getElementById("rec1").style.display = "none";
@@ -132,6 +160,15 @@ function bg(val,url){
          document.getElementById("imenu8").style.fontFamily= "avenir";
          document.getElementById("imenu9").style.fontFamily= "avenir";
          //document.getElementById("imenu10").style.fontFamily= "avenir";
+         document.getElementById("pop1").style.display = "none";
+         document.getElementById("pop2").style.display = "none";
+         document.getElementById("pop3").style.display = "none";
+         document.getElementById("pop4").style.display = "inherit";
+         document.getElementById("pop5").style.display = "none";
+         document.getElementById("pop6").style.display = "none";
+         document.getElementById("pop7").style.display = "none";
+         document.getElementById("pop8").style.display = "none";
+         document.getElementById("pop9").style.display = "none";
          break;
          case (val==5):
          document.getElementById("rec1").style.display = "none";
@@ -164,6 +201,15 @@ function bg(val,url){
          document.getElementById("imenu8").style.fontFamily= "avenir";
          document.getElementById("imenu9").style.fontFamily= "avenir";
          //document.getElementById("imenu10").style.fontFamily= "avenir";
+         document.getElementById("pop1").style.display = "none";
+         document.getElementById("pop2").style.display = "none";
+         document.getElementById("pop3").style.display = "none";
+         document.getElementById("pop4").style.display = "none";
+         document.getElementById("pop5").style.display = "inherit";
+         document.getElementById("pop6").style.display = "none";
+         document.getElementById("pop7").style.display = "none";
+         document.getElementById("pop8").style.display = "none";
+         document.getElementById("pop9").style.display = "none";
          break;
          case (val==6):
          document.getElementById("rec1").style.display = "none";
@@ -196,6 +242,15 @@ function bg(val,url){
          document.getElementById("imenu8").style.fontFamily= "avenir";
          document.getElementById("imenu9").style.fontFamily= "avenir";
          //document.getElementById("imenu10").style.fontFamily= "avenir";
+         document.getElementById("pop1").style.display = "none";
+         document.getElementById("pop2").style.display = "none";
+         document.getElementById("pop3").style.display = "none";
+         document.getElementById("pop4").style.display = "none";
+         document.getElementById("pop5").style.display = "none";
+         document.getElementById("pop6").style.display = "inherit";
+         document.getElementById("pop7").style.display = "none";
+         document.getElementById("pop8").style.display = "none";
+         document.getElementById("pop9").style.display = "none";
          break;
          case (val==7):
          document.getElementById("rec1").style.display = "none";
@@ -228,6 +283,15 @@ function bg(val,url){
          document.getElementById("imenu8").style.fontFamily= "avenir";
          document.getElementById("imenu9").style.fontFamily= "avenir";
          //document.getElementById("imenu10").style.fontFamily= "avenir";
+         document.getElementById("pop1").style.display = "none";
+         document.getElementById("pop2").style.display = "none";
+         document.getElementById("pop3").style.display = "none";
+         document.getElementById("pop4").style.display = "none";
+         document.getElementById("pop5").style.display = "none";
+         document.getElementById("pop6").style.display = "none";
+         document.getElementById("pop7").style.display = "inherit";
+         document.getElementById("pop8").style.display = "none";
+         document.getElementById("pop9").style.display = "none";
          break;
          case (val==8):
          document.getElementById("rec1").style.display = "none";
@@ -260,6 +324,15 @@ function bg(val,url){
          document.getElementById("imenu8").style.fontFamily= "avenirblack";
          document.getElementById("imenu9").style.fontFamily= "avenir";
          //document.getElementById("imenu10").style.fontFamily= "avenir";
+         document.getElementById("pop1").style.display = "none";
+         document.getElementById("pop2").style.display = "none";
+         document.getElementById("pop3").style.display = "none";
+         document.getElementById("pop4").style.display = "none";
+         document.getElementById("pop5").style.display = "none";
+         document.getElementById("pop6").style.display = "none";
+         document.getElementById("pop7").style.display = "none";
+         document.getElementById("pop8").style.display = "inherit";
+         document.getElementById("pop9").style.display = "none";
          break;
          case (val==9):
          document.getElementById("rec1").style.display = "none";
@@ -292,6 +365,15 @@ function bg(val,url){
          document.getElementById("imenu8").style.fontFamily= "avenir";
          document.getElementById("imenu9").style.fontFamily= "avenirblack";
          //document.getElementById("imenu10").style.fontFamily= "avenir";
+         document.getElementById("pop1").style.display = "none";
+         document.getElementById("pop2").style.display = "none";
+         document.getElementById("pop3").style.display = "none";
+         document.getElementById("pop4").style.display = "none";
+         document.getElementById("pop5").style.display = "none";
+         document.getElementById("pop6").style.display = "none";
+         document.getElementById("pop7").style.display = "none";
+         document.getElementById("pop8").style.display = "none";
+         document.getElementById("pop9").style.display = "inherit";
          break;
          case (val==10):
          document.getElementById("rec1").style.display = "none";
@@ -324,6 +406,16 @@ function bg(val,url){
          document.getElementById("imenu8").style.fontFamily= "avenir";
          document.getElementById("imenu9").style.fontFamily= "avenir";
          document.getElementById("imenu10").style.fontFamily= "avenirblack";
+         document.getElementById("pop1").style.display = "none";
+         document.getElementById("pop2").style.display = "none";
+         document.getElementById("pop3").style.display = "none";
+         document.getElementById("pop4").style.display = "none";
+         document.getElementById("pop5").style.display = "none";
+         document.getElementById("pop6").style.display = "none";
+         document.getElementById("pop7").style.display = "none";
+         document.getElementById("pop8").style.display = "none";
+         document.getElementById("pop9").style.display = "none";
+         document.getElementById("pop10").style.display = "inherit";
          break;
          default:
          break;
