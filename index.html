@@ -16,6 +16,9 @@
       <!--link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"-->
       <!-- style -->
       <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+      <!-- Magnific Popup core CSS file -->
+      <link rel="stylesheet" href="./assets/popup/magnific-popup.css">
+
    </head>
    <body>
       <!--header-->
@@ -124,7 +127,10 @@
                <article id="imenu9" class="imenu" onMouseOver="bg(9,'#');">Equipamiento Integral</article>
                <div class="rec-trian" id="rec9"></div>
             </div>
-            <div id="ver-url" class="ver"><a href="#">VER M&Aacute;S</a></div>
+            <div id="ver-url" class="ver">
+              <a class="popup-with-zoom-anim" href="#small-dialog1">VER M&Aacute;S</a>
+              <a class="popup-with-zoom-anim" href="#small-dialog2">VER M&Aacute;S</a>
+            </div>
          </div>
          <div class="trian-bg-servicio"></div>
       </section>
@@ -173,50 +179,6 @@
             </div>
             <div class="trian-red2"></div>
          </div>
-         <!--div class="container">
-            <div class="row-ima3">
-              <div class="item-logos"><img src="assets/img/logos/one.jpg" title="one" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/posadas.jpg" title="posadas" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/fiestainn.jpg" title="fiesta inn" class="img-responsive" /></div>
-            </div>
-            <div class="row-ima5">
-              <div class="item-logos"><img src="assets/img/logos/philips.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/liverpool.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/oxxo.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/lamosa.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/bimbo.jpg" title="" class="img-responsive" /></div>
-
-              <div class="item-logos"><img src="assets/img/logos/elektra.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/p&g.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/lala.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/superfarmacia.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/homedepot.jpg" title="" class="img-responsive" /></div>
-
-              <div class="item-logos"><img src="assets/img/logos/bachoco.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/televisa.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/sahuayo.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/cocacola.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/cemex.jpg" title="" class="img-responsive" /></div>
-
-              <div class="item-logos"><img src="assets/img/logos/herdez.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/soriana.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/tyson.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/jhondeere.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/officedepot.jpg" title="" class="img-responsive" /></div>
-
-              <div class="item-logos"><img src="assets/img/logos/walmart.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/hp.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/nestle.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/ransa.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/coppel.jpg" title="" class="img-responsive" /></div>
-
-            </div>
-            <div class="row-ima3">
-              <div class="item-logos"><img src="assets/img/logos/lamoderna.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/grupoimsa.jpg" title="" class="img-responsive" /></div>
-              <div class="item-logos"><img src="assets/img/logos/samsung.jpg" title="" class="img-responsive" /></div>
-            </div>
-            </div-->
          <div class="container">
             <div class="tabla">
                <div class="fila">
@@ -231,42 +193,36 @@
                   <div class="col"><img src="assets/img/logos/liverpool.jpg" title="" class="img-responsive" /></div>
                   <div class="col"><img src="assets/img/logos/oxxo.jpg" title="" class="img-responsive" /></div>
                   <div class="col"><img src="assets/img/logos/lamosa.jpg" title="" class="img-responsive" /></div>
-                  <div class="col"><img src="assets/img/logos/bimbo.jpg" title="" class="img-responsive" /></div>
-               </div>
-               <div class="fila">
                   <div class="col"><img src="assets/img/logos/elektra.jpg" title="" class="img-responsive" /></div>
+                </div>
+                <div class="fila">
                   <div class="col"><img src="assets/img/logos/p&g.jpg" title="" class="img-responsive" /></div>
-                  <div class="col"><img src="assets/img/logos/lala.jpg" title="" class="img-responsive" /></div>
                   <div class="col"><img src="assets/img/logos/superfarmacia.jpg" title="" class="img-responsive" /></div>
                   <div class="col"><img src="assets/img/logos/homedepot.jpg" title="" class="img-responsive" /></div>
-               </div>
-               <div class="fila">
-                  <div class="col"><img src="assets/img/logos/bachoco.jpg" title="" class="img-responsive" /></div>
                   <div class="col"><img src="assets/img/logos/televisa.jpg" title="" class="img-responsive" /></div>
                   <div class="col"><img src="assets/img/logos/sahuayo.jpg" title="" class="img-responsive" /></div>
+                </div>
+                <div class="fila">
                   <div class="col"><img src="assets/img/logos/cocacola.jpg" title="" class="img-responsive" /></div>
                   <div class="col"><img src="assets/img/logos/cemex.jpg" title="" class="img-responsive" /></div>
-               </div>
-               <div class="fila">
-                  <div class="col"><img src="assets/img/logos/herdez.jpg" title="" class="img-responsive" /></div>
                   <div class="col"><img src="assets/img/logos/soriana.jpg" title="" class="img-responsive" /></div>
-                  <div class="col"><img src="assets/img/logos/tyson.jpg" title="" class="img-responsive" /></div>
+                  <div class="col"><!--img src="assets/img/logos/tyson.jpg" title="" class="img-responsive" /--></div>
                   <div class="col"><img src="assets/img/logos/jhondeere.jpg" title="" class="img-responsive" /></div>
+                </div>
+                <div class="fila">
                   <div class="col"><img src="assets/img/logos/officedepot.jpg" title="" class="img-responsive" /></div>
-               </div>
-               <div class="fila">
                   <div class="col"><img src="assets/img/logos/walmart.jpg" title="" class="img-responsive" /></div>
                   <div class="col"><img src="assets/img/logos/hp.jpg" title="" class="img-responsive" /></div>
-                  <div class="col"><img src="assets/img/logos/nestle.jpg" title="" class="img-responsive" /></div>
-                  <div class="col"><img src="assets/img/logos/ransa.jpg" title="" class="img-responsive" /></div>
                   <div class="col"><img src="assets/img/logos/coppel.jpg" title="" class="img-responsive" /></div>
+                  <div class="col"><img src="assets/img/logos/lamoderna.jpg" title="" class="img-responsive" /></div>
                </div>
                <div class="fila">
                   <div class="col"></div>
-                  <div class="col"><img src="assets/img/logos/lamoderna.jpg" title="" class="img-responsive" /></div>
                   <div class="col"><img src="assets/img/logos/grupoimsa.jpg" title="" class="img-responsive" /></div>
                   <div class="col"><img src="assets/img/logos/samsung.jpg" title="" class="img-responsive" /></div>
                   <div class="col"></div>
+                  <div class="col"></div>
+
                </div>
             </div>
          </div>
@@ -317,10 +273,12 @@
          </div>
       </footer>
       <!--/footer-->
+
+      <!--JQUERY-->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="assets/js/menus.js"></script>
       <script src="php/form/form.js"></script>
-      <!--script src="https://kit.fontawesome.com/92ba5d4518.js"></script-->
+      <script src="https://kit.fontawesome.com/92ba5d4518.js"></script>
       <script>
          $(document).ready(function(){
            $(".btn-menu,#nos,#ser,#exp,#cli").click(function() {
@@ -329,5 +287,74 @@
            });
          });
       </script>
+
+
+<!--
+<a id="ver1" class="popup-with-zoom-anim" href="#small-dialog">VER MÁS</a>
+<a id="ver2" class="popup-with-zoom-anim" href="#small-dialog">VER MÁS</a>
+-->
+<!--
+<div id="pop1" class="popup1">
+  <div id="conte-popup">Galeria1</div>
+</div>
+<div id="pop2" class="popup2">
+  <div id="conte-popup">Galeria2</div>
+</div>
+-->
+      <!-- Magnific Popup core JS file -->
+      <script src="assets/popup/jquery.magnific-popup.js"></script>
+
+      <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+      <!--POPUPs-->
+      <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+        <h1>Galeria</h1>
+        <p>Contenido.</p>
+      </div>
+      <div id="small-dialog1" class="zoom-anim-dialog mfp-hide">
+        <h1>Galeria1</h1>
+        <p>Contenido.</p>
+      </div>
+
+      <div id="small-dialog2" class="zoom-anim-dialog mfp-hide">
+        <h1>Galeria2</h1>
+        <p>Contenido.</p>
+      </div>
+      <!--/POPUPs-->
+        <script type="text/javascript">
+          $(function() {
+            $('.popup-with-zoom-anim').magnificPopup({
+              type: 'inline',
+
+              fixedContentPos: false,
+              fixedBgPos: true,
+
+              overflowY: 'auto',
+
+              closeBtnInside: true,
+              preloader: false,
+
+              midClick: true,
+              removalDelay: 300,
+              mainClass: 'my-mfp-zoom-in'
+            });
+
+            $('.popup-with-move-anim').magnificPopup({
+              type: 'inline',
+
+              fixedContentPos: false,
+              fixedBgPos: true,
+
+              overflowY: 'auto',
+
+              closeBtnInside: true,
+              preloader: false,
+
+              midClick: true,
+              removalDelay: 300,
+              mainClass: 'my-mfp-slide-bottom'
+            });
+          });
+        </script>
+        <!---->
    </body>
 </html>

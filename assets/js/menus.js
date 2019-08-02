@@ -3,7 +3,7 @@ function bg(val,url){
   if(val>0){
        //document.getElementById("imenu"+val).style.background = "#B20800";
        document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/bgmenu"+val+".jpg')";
-       document.getElementById("ver-url").innerHTML = '<a href="'+url+val+'">VER M&Aacute;S</a>';
+       //document.getElementById("ver-url").innerHTML = '<a id="ver'+val+'" class="popup-with-zoom-anim" href="#small-dialog">VER M&Aacute;S</a>';
        switch (true) {
          case (val==1):
           document.getElementById("rec1").style.display = "inherit";
@@ -330,6 +330,7 @@ function bg(val,url){
        }
   }else{
     document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/"+imagen+".jpg')";
+    //document.getElementById("ver-url").innerHTML = '<a class="popup-with-zoom-anim" href="#small-dialog">VER M&Aacute;S</a>';
   }
 }
 
@@ -414,7 +415,7 @@ function bg_select(val){
   var imagen='bgmenu1.jpg';
   if(val>0){
     document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/bgmenu"+val+".jpg')";
-    document.getElementById("ver-url").innerHTML = '<a href="'+val+'">VER M&Aacute;S</a>';
+    document.getElementById("ver-url").innerHTML = '<a class="popup-with-zoom-anim" href="#small-dialog'+val+'">VER M&Aacute;S</a>';
   }else{
     document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/"+imagen+".jpg')";
   }
@@ -455,3 +456,40 @@ function bg_item(val){
     document.getElementById("item4").style.backgroundImage = "url('assets/img/item4_off.png')";
   }
 }
+
+/*
+$(document).ready(function(){
+  //var top=$('html').scrollTop();
+  //$('.popup1').html(top);
+  $("#ver1,#pop1").click(function() {
+    $(".popup1").slideToggle("fade-zoom");
+  });
+  $("#ver2,#pop2").click(function() {
+    $(".popup2").slideToggle("fade-zoom");
+  });
+  $("#ver3,#pop3").click(function() {
+    $(".popup3").slideToggle("fade-zoom");
+  });
+  $("#ver4,#pop4").click(function() {
+    $(".popup4").slideToggle("fade-zoom");
+  });
+  $("#ver5,#pop5").click(function() {
+    $(".popup5").slideToggle("fade-zoom");
+  });
+  $("#ver6,#pop6").click(function() {
+    $(".popup6").slideToggle("fade-zoom");
+  });
+  $("#ver7,#pop7").click(function() {
+    $(".popup7").slideToggle("fade-zoom");
+  });
+  $("#ver8,#pop8").click(function() {
+    $(".popup8").slideToggle("fade-zoom");
+  });
+  $("#ver9,#pop9").click(function() {
+    $(".popup9").slideToggle("fade-zoom");
+  });
+  $("#ver10,#pop10").click(function() {
+    $(".popup10").slideToggle("fade-zoom");
+  });
+});
+*/
