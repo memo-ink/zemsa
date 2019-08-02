@@ -18,6 +18,8 @@
       <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
       <!-- Magnific Popup core CSS file -->
       <link rel="stylesheet" href="./assets/popup/magnific-popup.css">
+      <!--Slider css-->
+      <link rel="stylesheet" href="./assets/slider/jquery.jdSlider.css">
 
    </head>
    <body>
@@ -294,32 +296,50 @@
            });
          });
       </script>
-
-
-<!--
-<a id="ver1" class="popup-with-zoom-anim" href="#small-dialog">VER MÁS</a>
-<a id="ver2" class="popup-with-zoom-anim" href="#small-dialog">VER MÁS</a>
--->
-<!--
-<div id="pop1" class="popup1">
-  <div id="conte-popup">Galeria1</div>
-</div>
-<div id="pop2" class="popup2">
-  <div id="conte-popup">Galeria2</div>
-</div>
--->
       <!-- Magnific Popup core JS file -->
       <script src="assets/popup/jquery.magnific-popup.js"></script>
+      <!--Slider js-->
+      <script src="./assets/slider/jquery.jdSlider-latest.min.js"></script>
 
       <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
       <!--POPUPs-->
       <div id="small-dialog1" class="zoom-anim-dialog mfp-hide">
         <h1>Estructural</h1>
-        <p>Contenido.</p>
+        <section class="jd-slider fade slider4">
+           <div class="slide-inner">
+               <ul class="slide-area">
+                   <li><img src="assets/img/bgmenu1.jpg"></li>
+                   <li><img src="assets/img/bgmenu2.jpg"></li>
+                   <li><img src="assets/img/bgmenu3.jpg"></li>
+               </ul>
+               <a class="prev" href="#"><i class="fas fa-angle-left fa-2x"></i></a>
+               <a class="next" href="#"><i class="fas fa-angle-right fa-2x"></i></a>
+           </div>
+           <div class="controller">
+               <a class="auto" href="#"><i class="fas fa-play fa-xs"></i></a>
+               <div class="indicate-area"></div>
+           </div>
+       </section>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
       </div>
       <div id="small-dialog2" class="zoom-anim-dialog mfp-hide">
         <h1>Sitemas contra incendios</h1>
-        <p>Contenido.</p>
+        <section class="jd-slider fade slider4">
+           <div class="slide-inner">
+               <ul class="slide-area">
+                   <li><img src="assets/img/bgmenu1.jpg"></li>
+                   <li><img src="assets/img/bgmenu2.jpg"></li>
+                   <li><img src="assets/img/bgmenu3.jpg"></li>
+               </ul>
+               <a class="prev" href="#"><i class="fas fa-angle-left fa-2x"></i></a>
+               <a class="next" href="#"><i class="fas fa-angle-right fa-2x"></i></a>
+           </div>
+           <div class="controller">
+               <a class="auto" href="#"><i class="fas fa-play fa-xs"></i></a>
+               <div class="indicate-area"></div>
+           </div>
+       </section>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
       </div>
       <div id="small-dialog3" class="zoom-anim-dialog mfp-hide">
         <h1>Instalaciones El&eacute;ctricas</h1>
@@ -358,6 +378,18 @@
 
       <!--/POPUPs-->
         <script type="text/javascript">
+        window.onload = function () {
+        $('.slider4').jdSlider({
+            wrap: '.slide-inner',
+            isSliding: false,
+            isAuto: true,
+            isLoop: true,
+            isDrag: false
+            });
+        };
+
+
+
           $(function() {
             $('.popup-with-zoom-anim').magnificPopup({
               type: 'inline',

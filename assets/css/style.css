@@ -916,7 +916,7 @@ imenu:focus {
 	background: white;
 	padding: 20px 30px;
 	text-align: left;
-	max-width: 75%;
+	max-width: 40%;/*75%;*/
 	margin: 40px auto;
 	position: relative;
 }
