@@ -507,7 +507,121 @@ function bg_select(val){
   var imagen='bgmenu1.jpg';
   if(val>0){
     document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/bgmenu"+val+".jpg')";
-    document.getElementById("ver-url").innerHTML = '<a class="popup-with-zoom-anim" href="#small-dialog'+val+'">VER M&Aacute;S</a>';
+    switch (true) {
+      case (val==1):
+       document.getElementById("pop1").style.display = "inherit";
+       document.getElementById("pop2").style.display = "none";
+       document.getElementById("pop3").style.display = "none";
+       document.getElementById("pop4").style.display = "none";
+       document.getElementById("pop5").style.display = "none";
+       document.getElementById("pop6").style.display = "none";
+       document.getElementById("pop7").style.display = "none";
+       document.getElementById("pop8").style.display = "none";
+       document.getElementById("pop9").style.display = "none";
+      break;
+      case (val==2):
+      document.getElementById("pop1").style.display = "none";
+      document.getElementById("pop2").style.display = "inherit";
+      document.getElementById("pop3").style.display = "none";
+      document.getElementById("pop4").style.display = "none";
+      document.getElementById("pop5").style.display = "none";
+      document.getElementById("pop6").style.display = "none";
+      document.getElementById("pop7").style.display = "none";
+      document.getElementById("pop8").style.display = "none";
+      document.getElementById("pop9").style.display = "none";
+      break;
+      case (val==3):
+      document.getElementById("pop1").style.display = "none";
+      document.getElementById("pop2").style.display = "none";
+      document.getElementById("pop3").style.display = "inherit";
+      document.getElementById("pop4").style.display = "none";
+      document.getElementById("pop5").style.display = "none";
+      document.getElementById("pop6").style.display = "none";
+      document.getElementById("pop7").style.display = "none";
+      document.getElementById("pop8").style.display = "none";
+      document.getElementById("pop9").style.display = "none";
+      break;
+      case (val==4):
+      document.getElementById("pop1").style.display = "none";
+      document.getElementById("pop2").style.display = "none";
+      document.getElementById("pop3").style.display = "none";
+      document.getElementById("pop4").style.display = "inherit";
+      document.getElementById("pop5").style.display = "none";
+      document.getElementById("pop6").style.display = "none";
+      document.getElementById("pop7").style.display = "none";
+      document.getElementById("pop8").style.display = "none";
+      document.getElementById("pop9").style.display = "none";
+      break;
+      case (val==5):
+      document.getElementById("pop1").style.display = "none";
+      document.getElementById("pop2").style.display = "none";
+      document.getElementById("pop3").style.display = "none";
+      document.getElementById("pop4").style.display = "none";
+      document.getElementById("pop5").style.display = "inherit";
+      document.getElementById("pop6").style.display = "none";
+      document.getElementById("pop7").style.display = "none";
+      document.getElementById("pop8").style.display = "none";
+      document.getElementById("pop9").style.display = "none";
+      break;
+      case (val==6):
+      document.getElementById("pop1").style.display = "none";
+      document.getElementById("pop2").style.display = "none";
+      document.getElementById("pop3").style.display = "none";
+      document.getElementById("pop4").style.display = "none";
+      document.getElementById("pop5").style.display = "none";
+      document.getElementById("pop6").style.display = "inherit";
+      document.getElementById("pop7").style.display = "none";
+      document.getElementById("pop8").style.display = "none";
+      document.getElementById("pop9").style.display = "none";
+      break;
+      case (val==7):
+      document.getElementById("pop1").style.display = "none";
+      document.getElementById("pop2").style.display = "none";
+      document.getElementById("pop3").style.display = "none";
+      document.getElementById("pop4").style.display = "none";
+      document.getElementById("pop5").style.display = "none";
+      document.getElementById("pop6").style.display = "none";
+      document.getElementById("pop7").style.display = "inherit";
+      document.getElementById("pop8").style.display = "none";
+      document.getElementById("pop9").style.display = "none";
+      break;
+      case (val==8):
+      document.getElementById("pop1").style.display = "none";
+      document.getElementById("pop2").style.display = "none";
+      document.getElementById("pop3").style.display = "none";
+      document.getElementById("pop4").style.display = "none";
+      document.getElementById("pop5").style.display = "none";
+      document.getElementById("pop6").style.display = "none";
+      document.getElementById("pop7").style.display = "none";
+      document.getElementById("pop8").style.display = "inherit";
+      document.getElementById("pop9").style.display = "none";
+      break;
+      case (val==9):
+      document.getElementById("pop1").style.display = "none";
+      document.getElementById("pop2").style.display = "none";
+      document.getElementById("pop3").style.display = "none";
+      document.getElementById("pop4").style.display = "none";
+      document.getElementById("pop5").style.display = "none";
+      document.getElementById("pop6").style.display = "none";
+      document.getElementById("pop7").style.display = "none";
+      document.getElementById("pop8").style.display = "none";
+      document.getElementById("pop9").style.display = "inherit";
+      break;
+      case (val==10):
+      document.getElementById("pop1").style.display = "none";
+      document.getElementById("pop2").style.display = "none";
+      document.getElementById("pop3").style.display = "none";
+      document.getElementById("pop4").style.display = "none";
+      document.getElementById("pop5").style.display = "none";
+      document.getElementById("pop6").style.display = "none";
+      document.getElementById("pop7").style.display = "none";
+      document.getElementById("pop8").style.display = "none";
+      document.getElementById("pop9").style.display = "none";
+      document.getElementById("pop10").style.display = "inherit";
+      break;
+      default:
+      break;
+    }
   }else{
     document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/"+imagen+".jpg')";
   }
