@@ -52,7 +52,7 @@
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
-	color: #000;
+	color: #B20800;
 }
 
 /* line 47, public/src/scss/jquery.jdSlider.scss */
@@ -62,12 +62,12 @@
 
 /* line 52, public/src/scss/jquery.jdSlider.scss */
 .jd-slider .prev {
-	left: 0;
+	left: 15px;
 }
 
 /* line 57, public/src/scss/jquery.jdSlider.scss */
 .jd-slider .next {
-	right: 0;
+	right: 15px;
 }
 
 /* line 62, public/src/scss/jquery.jdSlider.scss */
@@ -125,13 +125,13 @@
 	height: inherit;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 2px solid #333;
+	border: 2px solid #B20800;
 	border-radius: 50%;
 }
 
 /* line 113, public/src/scss/jquery.jdSlider.scss */
 .jd-slider .controller .indicate-area a.on:after {
-	background-color: #333;
+	background-color: #B20800;
 }
 
 /* line 120, public/src/scss/jquery.jdSlider.scss */
@@ -163,7 +163,7 @@
 
 
 .jd-slider {
-		 margin: 50px 0;
+		 margin: 0;
  }
 
  .jd-slider .slide-inner::before {
