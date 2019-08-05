@@ -1314,6 +1314,9 @@ imenu:focus {
 }
 
 @media (max-width: 400px) {
+	.about{
+		padding-top:20px;
+	}
 	.art-m {
 		padding-top: 40px !important;
 		font-size: 16px;
@@ -1328,6 +1331,7 @@ imenu:focus {
 	}
 	.tit-conte {
 		width: 328px;
+		margin: 40px auto 40px auto;
 	}
 	.tit-conte2 {
 		width: 220px;
