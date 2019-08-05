@@ -174,18 +174,18 @@
 		 right: 0;
 		 bottom: 0;
 		 z-index: 0;
-		 border: 1px solid #888;
+		 /*border: 1px solid #888;*/
  }
 
  .jd-slider .slide-area > li {
-		 border-right: 1px solid #888;
+		 /*border-right: 1px solid #888;*/
 		 border-left: 0;
 		 box-sizing: border-box;
 		 text-align: center;
  }
 
  .jd-slider .slide-area > li:first-child {
-		 border-left: 1px solid #888;
+		 /*border-left: 1px solid #888;*/
  }
 
  .jd-slider .slide-area > li > a {
