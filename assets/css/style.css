@@ -545,7 +545,44 @@ imenu:focus {
 	background-position: left top;
 }
 
+#item1:hover{
+	background: url('../img/item/item1_on.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: left top;
+}
+#item2:hover {
+	background: url('../img/item/item2_on.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: left top;
+}
 
+#item3:hover {
+	background: url('../img/item/item3_on.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: left top;
+}
+
+#item4:hover {
+	background: url('../img/item/item4_on.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: left top;
+}
 /*SECTION: CLIENTES*/
 
 .clientes {
