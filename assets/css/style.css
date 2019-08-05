@@ -1119,6 +1119,13 @@ imenu:focus {
 	.navbar {
 		width: 550px;
 	}
+	.navbar-logo{
+		top:16px;
+		width: 130px;
+	}
+	.trian-logo{
+		width: 210px;
+	}
 	.navbar-nav {
 		margin: 15px 10px 15px 0px;
 	}
