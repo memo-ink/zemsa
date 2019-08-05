@@ -629,7 +629,7 @@ imenu:focus {
 
 .mapa,
 .formulario {
-	width: 50%;
+	width: 48%;
 	height: 500px;
 	background: #B20800;
 	float: left;
@@ -650,7 +650,7 @@ imenu:focus {
 
 .mapa1 {
 	background: #aaa;
-	height: 280px;
+	height: 310px;
 }
 
 .label {
@@ -706,6 +706,7 @@ imenu:focus {
 	font-size: 18px;
 	width: 90%;
 	height: 100px;
+	resize: none;
 }
 
 #mapa {
