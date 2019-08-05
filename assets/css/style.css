@@ -680,7 +680,7 @@ imenu:focus {
 /* TITULOS - TRIANGULOS ROJO*/
 
 .tit-conte {
-	width: 464px;
+	width: 460px;
 	/*40%;*/
 	height: 112px;
 	margin: 40px auto 80px auto;
@@ -1273,15 +1273,32 @@ imenu:focus {
 	.about-conte2 {
 		width: 65%;
 	}
+	.trian-menu{
+		border-top: 25px solid #B20800;
+	}
+	.trian-menu-sombra{
+		top:20px;
+	}
+	.tit-conte2 h3, .tit-conte2 h4{
+		font-size: 1.5rem;
+	}
+	.trian-red1, .trian-red2 {
+    width: 52px;
+    height: 80px;
+	}
+	.tit-conte {
+    width: 360px;
+	}
+	.tit-conte2{
+		width: 250px;
+	}
 }
 
 @media (max-width: 500px) {
 	.about-conte2 {
 		width: 100%;
 	}
-	.tit-conte {
-		width: 400px;
-	}
+
 	.tit-conte2 {
 		width: 250px;
 	}
@@ -1308,6 +1325,9 @@ imenu:focus {
 		font-size: 16px;
 		width: 300px;
 		float: left;
+	}
+	.tit-conte {
+		width: 328px;
 	}
 	.tit-conte2 {
 		width: 220px;
