@@ -1304,7 +1304,18 @@ imenu:focus {
 	.about-conte2 {
 		width: 100%;
 	}
-
+	.art-m {
+		padding-top: 40px !important;
+		font-size: 16px;
+		width: 300px;
+		float: left;
+	}
+	.art-v {
+		padding-top: 30px !important;
+		font-size: 16px;
+		width: 300px;
+		float: left;
+	}
 	.tit-conte2 {
 		width: 250px;
 	}
@@ -1322,18 +1333,6 @@ imenu:focus {
 @media (max-width: 400px) {
 	.about{
 		padding-top:20px;
-	}
-	.art-m {
-		padding-top: 40px !important;
-		font-size: 16px;
-		width: 300px;
-		float: left;
-	}
-	.art-v {
-		padding-top: 30px !important;
-		font-size: 16px;
-		width: 300px;
-		float: left;
 	}
 	.tit-conte {
 		width: 328px;
