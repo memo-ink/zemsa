@@ -364,9 +364,9 @@ section {
 
 /*SECTION: SERVICIOS*/
 
-.servicios {
+/*.servicios {
 	padding-top: 50px;
-}
+}*/
 
 .menu-servicios {
 	width: 360px;
@@ -1341,10 +1341,13 @@ imenu:focus {
 	.about-conte2 {
 		width: 100%;
 	}
+	.servicios,.experiencia,.clientes{
+		padding-top: 80px;
+	}
 	.art-m {
-		padding-top: 40px !important;
+		padding-top: 60px !important;
 		font-size: 18px;
-		width: 90%;
+		width: 380px;
 		float: left;
 	}
 	.art-v {
