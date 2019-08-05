@@ -1331,6 +1331,9 @@ imenu:focus {
 		width: 96%;
 		padding: 2%;
 	}
+	.trian-foot{
+		margin-top: 30px;
+	}
 }
 
 @media (max-width: 400px) {
