@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="es-MX">
    <head>
-      <!-- title -->
-      <title>ZEMSA</title>
       <!--Caracteres-->
       <meta charset="UTF-8">
+      <!-- title -->
+      <title>ZEMSA</title>
       <!--Responsive Meta-->
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
       <!-- description -->
@@ -19,8 +19,6 @@
       <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5">
       <meta name="msapplication-TileColor" content="#da532c">
       <meta name="theme-color" content="#ffffff">
-      <!-- font-awesome 4.7.0 -->
-      <!--link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"-->
       <!-- style -->
       <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
       <!-- Magnific Popup core CSS file -->
@@ -113,7 +111,6 @@
          </div>
          <div id="bg-ima" class="container bg-ima">
             <div class="menu-servicios">
-               <!--article class="imenu">Mec&aacute;nica de Suelos</article-->
                <article id="imenu1" class="imenu" onMouseOver="bg(1,'#');">Estructural</article>
                <div class="rec-trian" id="rec1"></div>
                <article id="imenu2" class="imenu" onMouseOver="bg(2,'#');">Sistema contra incendios</article>
@@ -521,50 +518,50 @@
       <footer>
          <div class="trian-foot"></div>
          <div class="contacto-conte">
-           <div class="container contacto-alto">
-              <div class="mapa">
-                <h3>CONTACTO</h3>
-                <div class="mapa1"><iframe src="mapa.html" frameborder="0" marginheight="0" marginwidth="0" id="mapa"></iframe></div>
-              </div>
-              <div class="formulario">
-                <form  class="contact__form" method="post" action="php/form/mail.php">
-                   <div class="label"><label>Nombre</label></div>
-                   <div class="input"><input type="text" id="nombre" name="nombre"></div>
-                   <div class="label"><label>Correo</label></div>
-                   <div class="input"><input type="email" id="email" name="email"></div>
-                   <div class="label"><label>Tel&eacute;fono</label></div>
-                   <div class="input"><input type="text" id="tel" name="tel"></div>
-                   <div class="label"><label>Mensaje</label></div>
-                   <textarea id="msj" name="msj"></textarea>
-                   <!-- form message -->
-                   <div class="row">
-                      <div class="col-12">
-                         <div class="alert alert-success contact__msg" style="display:none;" role="alert">
-                            Tu mensaje fue enviado exitosamente.
-                         </div>
-                      </div>
-                   </div>
-                   <!-- end message -->
-                   <div class="btn"><button type="submit" class="btn-default">Enviar</button></div>
-                </form>
-              </div>
-           </div>
+            <div class="container contacto-alto">
+               <div class="mapa">
+                  <h3>CONTACTO</h3>
+                  <div class="mapa1"><iframe src="mapa.html" frameborder="0" marginheight="0" marginwidth="0" id="mapa"></iframe></div>
+               </div>
+               <div class="formulario">
+                  <form  class="contact__form" method="post" action="php/form/mail.php">
+                     <div class="label"><label>Nombre</label></div>
+                     <div class="input"><input type="text" id="nombre" name="nombre"></div>
+                     <div class="label"><label>Correo</label></div>
+                     <div class="input"><input type="email" id="email" name="email"></div>
+                     <div class="label"><label>Tel&eacute;fono</label></div>
+                     <div class="input"><input type="text" id="tel" name="tel"></div>
+                     <div class="label"><label>Mensaje</label></div>
+                     <textarea id="msj" name="msj"></textarea>
+                     <!-- form message -->
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="alert alert-success contact__msg" style="display:none;" role="alert">
+                              Tu mensaje fue enviado exitosamente.
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end message -->
+                     <div class="btn"><button type="submit" class="btn-default">Enviar</button></div>
+                  </form>
+               </div>
+            </div>
          </div>
          <div class="contact">
-         	<div class="contact1">
-            <a href="tel:4422222222"><i class="fa fa-phone-alt"></i> 01(442) 222 22 22</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="tel:4422222222"><i class="fa fa-phone-alt"></i> 01(442) 222 22 22</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="tel:4422222222"><i class="fa fa-mobile"></i> 01(442) 222 22 22</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="contact1">
+               <a href="tel:4422222222"><i class="fa fa-phone-alt"></i> 01(442) 222 22 22</a>&nbsp;&nbsp;&nbsp;&nbsp;
+               <a href="tel:4422222222"><i class="fa fa-phone-alt"></i> 01(442) 222 22 22</a>&nbsp;&nbsp;&nbsp;&nbsp;
+               <a href="tel:4422222222"><i class="fa fa-mobile"></i> 01(442) 222 22 22</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="contact2">
-            <a href="mailto:info@zemsa.com"><i class="fa fa-envelope"></i> info@zemsa.com</a>
+               <a href="mailto:info@zemsa.com"><i class="fa fa-envelope"></i> info@zemsa.com</a>
             </div>
          </div>
       </footer>
       <!--/footer-->
       <!--JQUERY-->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="assets/js/menus.js"></script>
+      <script src="assets/js/menus.min.js"></script>
       <script src="php/form/form.js"></script>
       <script src="https://kit.fontawesome.com/92ba5d4518.js"></script>
       <script>
@@ -589,7 +586,6 @@
              isDrag: false
              });
          };
-
 
            $(function() {
              $('.popup-with-zoom-anim').magnificPopup({

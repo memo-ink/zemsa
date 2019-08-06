@@ -1,9 +1,7 @@
 function bg(val, url) {
     var imagen = 'bgmenu1.jpg';
     if (val > 0) {
-        //document.getElementById("imenu"+val).style.background = "#B20800";
-        document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/bgmenu" + val + ".jpg')";
-        //document.getElementById("ver-url").innerHTML = '<a id="ver'+val+'" class="popup-with-zoom-anim" href="#small-dialog">VER M&Aacute;S</a>';
+        document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/bgmenu" + val + ".jpg')"; //document.getElementById("ver-url").innerHTML = '<a id="ver'+val+'" class="popup-with-zoom-anim" href="#small-dialog">VER M&Aacute;S</a>';
         switch (true) {
             case (val == 1):
                 document.getElementById("rec1").style.display = "inherit";
@@ -421,7 +419,6 @@ function bg(val, url) {
         }
     } else {
         document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/" + imagen + ".jpg')";
-        //document.getElementById("ver-url").innerHTML = '<a class="popup-with-zoom-anim" href="#small-dialog">VER M&Aacute;S</a>';
     }
 }
 
@@ -625,4 +622,3 @@ function bg_select(val) {
         document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/" + imagen + ".jpg')";
     }
 }
-
