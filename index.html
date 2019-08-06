@@ -52,7 +52,7 @@
          <div class="trian-logo"></div>
          <div class="trian-menu"></div>
          <div class="trian-menu-sombra"></div>
-         <div class="trian-bottom"></div>
+         <div id="nosotros" class="trian-bottom"></div>
       </section>
       <!--Valores-->
       <section class="valores">
@@ -76,7 +76,7 @@
       </section>
       <!--/Valores-->
       <!--About-->
-      <section id="nosotros" class="about">
+      <section class="about">
          <div class="about-conte">
             <div class="svg-about1"></div>
             <article class="about-conte2">
@@ -521,42 +521,44 @@
       <footer>
          <div class="trian-foot"></div>
          <div class="contacto-conte">
-            <div class="mapa">
-               <div class="map-conte">
-                  <h3>CONTACTO</h3>
-                  <div class="mapa1"><iframe src="mapa.html" frameborder="0" marginheight="0" marginwidth="0" id="mapa"></iframe></div>
-               </div>
-            </div>
-            <div class="formulario">
-               <div class="form-conte">
-                  <form  class="contact__form" method="post" action="php/form/mail.php">
-                     <div class="label"><label>Nombre</label></div>
-                     <div class="input"><input type="text" id="nombre" name="nombre"></div>
-                     <div class="label"><label>Correo</label></div>
-                     <div class="input"><input type="email" id="email" name="email"></div>
-                     <div class="label"><label>Tel&eacute;fono</label></div>
-                     <div class="input"><input type="text" id="tel" name="tel"></div>
-                     <div class="label"><label>Mensaje</label></div>
-                     <textarea id="msj" name="msj"></textarea>
-                     <!-- form message -->
-                     <div class="row">
-                        <div class="col-12">
-                           <div class="alert alert-success contact__msg" style="display:none;" role="alert">
-                              Tu mensaje fue enviado exitosamente.
-                           </div>
-                        </div>
-                     </div>
-                     <!-- end message -->
-                     <div class="btn"><button type="submit" class="btn-default">Enviar</button></div>
-                  </form>
-               </div>
-            </div>
+           <div class="container contacto-alto">
+              <div class="mapa">
+                <h3>CONTACTO</h3>
+                <div class="mapa1"><iframe src="mapa.html" frameborder="0" marginheight="0" marginwidth="0" id="mapa"></iframe></div>
+              </div>
+              <div class="formulario">
+                <form  class="contact__form" method="post" action="php/form/mail.php">
+                   <div class="label"><label>Nombre</label></div>
+                   <div class="input"><input type="text" id="nombre" name="nombre"></div>
+                   <div class="label"><label>Correo</label></div>
+                   <div class="input"><input type="email" id="email" name="email"></div>
+                   <div class="label"><label>Tel&eacute;fono</label></div>
+                   <div class="input"><input type="text" id="tel" name="tel"></div>
+                   <div class="label"><label>Mensaje</label></div>
+                   <textarea id="msj" name="msj"></textarea>
+                   <!-- form message -->
+                   <div class="row">
+                      <div class="col-12">
+                         <div class="alert alert-success contact__msg" style="display:none;" role="alert">
+                            Tu mensaje fue enviado exitosamente.
+                         </div>
+                      </div>
+                   </div>
+                   <!-- end message -->
+                   <div class="btn"><button type="submit" class="btn-default">Enviar</button></div>
+                </form>
+              </div>
+           </div>
          </div>
          <div class="contact">
+         	<div class="contact1">
             <a href="tel:4422222222"><i class="fa fa-phone-alt"></i> 01(442) 222 22 22</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="tel:4422222222"><i class="fa fa-phone-alt"></i> 01(442) 222 22 22</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="tel:4422222222"><i class="fa fa-mobile"></i> 01(442) 222 22 22</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="contact2">
             <a href="mailto:info@zemsa.com"><i class="fa fa-envelope"></i> info@zemsa.com</a>
+            </div>
          </div>
       </footer>
       <!--/footer-->
@@ -576,7 +578,7 @@
       <!-- Magnific Popup core JS file -->
       <script src="assets/popup/jquery.magnific-popup.js"></script>
       <!--Slider js-->
-      <script src="./assets/slider/jquery.jdSlider-latest.min.js"></script>
+      <script src="assets/slider/jquery.jdSlider-latest.min.js"></script>
       <script type="text/javascript">
          window.onload = function () {
          $('.slider4').jdSlider({

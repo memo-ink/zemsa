@@ -626,38 +626,3 @@ function bg_select(val) {
     }
 }
 
-function bg_item(val) {
-    if (val > 0) {
-        switch (true) {
-            case (val == 1):
-                document.getElementById("item1").style.backgroundImage = "url('assets/img/item/item1_on.jpg')";
-                document.getElementById("item2").style.backgroundImage = "url('assets/img/item/item2_off.jpg')";
-                document.getElementById("item3").style.backgroundImage = "url('assets/img/item/item3_off.jpg')";
-                document.getElementById("item4").style.backgroundImage = "url('assets/img/item/item4_off.jpg')";
-                break;
-            case (val == 2):
-                document.getElementById("item1").style.backgroundImage = "url('assets/img/item/item1_off.jpg')";
-                document.getElementById("item2").style.backgroundImage = "url('assets/img/item/item2_on.jpg')";
-                document.getElementById("item3").style.backgroundImage = "url('assets/img/item/item3_off.jpg')";
-                document.getElementById("item4").style.backgroundImage = "url('assets/img/item/item4_off.jpg')";
-                break;
-            case (val == 3):
-                document.getElementById("item1").style.backgroundImage = "url('assets/img/item/item1_off.jpg')";
-                document.getElementById("item2").style.backgroundImage = "url('assets/img/item/item2_off.jpg')";
-                document.getElementById("item3").style.backgroundImage = "url('assets/img/item/item3_on.jpg')";
-                document.getElementById("item4").style.backgroundImage = "url('assets/img/item/item4_off.jpg')";
-                break;
-            case (val == 4):
-                document.getElementById("item1").style.backgroundImage = "url('assets/img/item/item1_off.jpg')";
-                document.getElementById("item2").style.backgroundImage = "url('assets/img/item/item2_off.jpg')";
-                document.getElementById("item3").style.backgroundImage = "url('assets/img/item/item3_off.jpg')";
-                document.getElementById("item4").style.backgroundImage = "url('assets/img/item/item4_on.jpg')";
-                break;
-        }
-    } else {
-        document.getElementById("item1").style.backgroundImage = "url('assets/img/item/item1_off.jpg')";
-        document.getElementById("item2").style.backgroundImage = "url('assets/img/item/item2_off.jpg')";
-        document.getElementById("item3").style.backgroundImage = "url('assets/img/item/item3_off.jpg')";
-        document.getElementById("item4").style.backgroundImage = "url('assets/img/item/item4_off.jpg')";
-    }
-}

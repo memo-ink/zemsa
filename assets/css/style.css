@@ -49,6 +49,7 @@ label {
 	font-family: gotham;
 	font-size: 20px;
 	color: #fff;
+	letter-spacing: 1px;
 }
 
 section {
@@ -312,9 +313,11 @@ section {
 
 
 /*SECTION: ABOUT*/
-
+/*#nosotros{
+	padding-top:50px;
+}*/
 .about {
-	padding-top: 100px;
+	padding-top: 50px;
 	min-height: 600px;
 }
 
@@ -364,10 +367,9 @@ section {
 
 /*SECTION: SERVICIOS*/
 
-/*.servicios {
+.servicios {
 	padding-top: 50px;
-}*/
-
+}
 .menu-servicios {
 	width: 360px;
 	/*height: 722px;*/
@@ -627,14 +629,23 @@ imenu:focus {
 	padding-top: 25px;
 }
 
+.contacto-alto{height: 540px;}
+
 .mapa,
 .formulario {
-	width: 48%;
+	width: 40%;
 	height: 500px;
 	background: #B20800;
 	float: left;
 }
-
+.mapa{
+	padding-right:3%;
+	padding-left:7%;
+}
+.formulario{
+	padding-right:7%;
+	padding-left:3%;
+}
 .map-conte,
 .form-conte {
 	width: 450px;
@@ -644,13 +655,13 @@ imenu:focus {
 
 .mapa h3 {
 	font-family: avenirblack;
-	font-size: 2rem;
+	font-size: 2.2rem;
 	/*margin: 1em 0 1em 0;*/
 }
 
 .mapa1 {
 	background: #aaa;
-	height: 310px;
+	height: 340px;
 }
 
 .label {
@@ -668,7 +679,7 @@ imenu:focus {
 
 .btn {
 	width: 90%;
-	padding: 50px 0 15px 0;
+	padding: 20px 0 15px 0;
 	text-align: right;
 }
 
@@ -694,9 +705,22 @@ imenu:focus {
 	padding: 25px 5% 25px 5%;
 	background: #B20800;
 }
-
+.contact1,
+.contact2{
+	width:40%;
+	float:left;
+}
+.contact1{
+	padding-right:3%;
+	padding-left:7%;
+}
+.contact2{
+	padding-right:7%;
+	padding-left:3%;
+}
 .contact a {
-	font-size: 16px;
+	font-family: gotham;
+	font-size: 19px;
 	color: #fff;
 	text-decoration: none;
 }
@@ -705,7 +729,7 @@ imenu:focus {
 	font-family: gotham;
 	font-size: 18px;
 	width: 90%;
-	height: 100px;
+	height: 160px;
 	resize: none;
 }
 
@@ -1143,6 +1167,39 @@ imenu:focus {
   border-right: 14px solid transparent;
 }
 /*RESPONSIVO*/
+@media (min-width:1440px){
+	.article-p {
+    font-size: 23px;
+    font-weight: normal;
+    padding-bottom: 58px;
+    padding-top: 50px;
+}
+	.valores-bg {
+		width: 100%;
+		height: 700px;
+		background: url("../img/valores-bg.png");
+		background-image: url("../img/valores-bg.svg");
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center;
+	}
+	.art-m {
+		padding-top: 50px !important;
+		font-size: 23px;
+		width: 500px;
+	}
+
+	.art-v {
+		padding-top: 90px !important;
+		font-size: 23px;
+		width: 500px;
+		float: right;
+	}
+}
+
 
 @media (max-width: 1200px) {
 	.col {
@@ -1214,24 +1271,29 @@ imenu:focus {
 @media (max-width: 980px) {
 	.mapa,
 	.formulario {
-		width: 100%;
+		width: 99%;
+		padding:0;
 	}
 	.ver {
 		background-position: right bottom;
 	}
 	.input input,
 	#msj {
-		width: 97%;
+		width: 98.5%;
 	}
 	.mapa {
 		height: 450px;
+	}
+	.contacto-alto{
+		height:980px;
 	}
 	.contact {
 		padding: 25px 5% 50px 5%;
 	}
 	.btn {
-		padding: 42px 0 15px 0;
+		padding: 20px 0 15px 0;
 	}
+
 }
 
 @media (max-width: 825px) {
@@ -1287,6 +1349,10 @@ imenu:focus {
 		max-width: 90%;
 		/*75%;*/
 	}
+	.input input,
+	#msj {
+		width: 97%;
+	}
 }
 
 @media (max-width: 630px) {
@@ -1306,7 +1372,7 @@ imenu:focus {
 
 @media (max-width: 545px) {
 	.about {
-		height: 830px;
+		height: 800px;
 	}
 	.about-conte2 {
 		width: 65%;
@@ -1339,9 +1405,11 @@ imenu:focus {
 }
 
 @media (max-width: 500px) {
+	.about{ height:600px;}
 	.about-conte2 {
 		width: 100%;
 	}
+	/*.valores{ padding-top:70px;}*/
 	.servicios,.experiencia,.clientes{
 		padding-top: 80px;
 	}
@@ -1375,11 +1443,17 @@ imenu:focus {
 	.trian-foot{
 		margin-top: 30px;
 	}
+	.tit-conte{
+		margin: 40px auto 20px auto;
+	}
 }
-
+@media (max-width: 450px) {
+	.about{height:700px;}
+}
 @media (max-width: 400px) {
 	.about{
 		padding-top:20px;
+		height:750px;
 	}
 	.art-m {
 		padding-top: 50px !important;
@@ -1398,7 +1472,6 @@ imenu:focus {
 	}
 	.tit-conte {
 		width: 328px;
-		margin: 40px auto 40px auto;
 	}
 	.tit-conte2 {
 		width: 220px;
