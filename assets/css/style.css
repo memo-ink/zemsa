@@ -1019,6 +1019,7 @@ input:focus, input.form-control:focus, textarea:focus {
 }
 
 .zoom-anim-dialog h1 {
+	font-size: 22px;
 	background: #b20800;
 	color: #fff;
 	font-family: Avenir;
@@ -1388,6 +1389,9 @@ input:focus, input.form-control:focus, textarea:focus {
 	}
 	#msj {
 		width: 99%;
+	}
+	.zoom-anim-dialog h1{
+		font-size: 20px;
 	}
 }
 

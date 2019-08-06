@@ -1,7 +1,7 @@
 function bg(val, url) {
     var imagen = 'bgmenu1.jpg';
     if (val > 0) {
-        document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/bgmenu" + val + ".jpg')"; //document.getElementById("ver-url").innerHTML = '<a id="ver'+val+'" class="popup-with-zoom-anim" href="#small-dialog">VER M&Aacute;S</a>';
+        document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/fondosbg/bgmenu" + val + ".jpg')"; //document.getElementById("ver-url").innerHTML = '<a id="ver'+val+'" class="popup-with-zoom-anim" href="#small-dialog">VER M&Aacute;S</a>';
         switch (true) {
             case (val == 1):
                 document.getElementById("rec1").style.display = "inherit";
@@ -418,7 +418,7 @@ function bg(val, url) {
                 break;
         }
     } else {
-        document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/" + imagen + ".jpg')";
+        document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/fondosbg/" + imagen + ".jpg')";
     }
 }
 
@@ -502,7 +502,7 @@ document.addEventListener("click", closeAllSelect);
 function bg_select(val) {
     var imagen = 'bgmenu1.jpg';
     if (val > 0) {
-        document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/bgmenu" + val + ".jpg')";
+        document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/fondosbg/bgmenu" + val + ".jpg')";
         switch (true) {
             case (val == 1):
                 document.getElementById("pop1").style.display = "inherit";
@@ -619,6 +619,6 @@ function bg_select(val) {
                 break;
         }
     } else {
-        document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/" + imagen + ".jpg')";
+        document.getElementById("bg-ima").style.backgroundImage = "url('assets/img/fondosbg/" + imagen + ".jpg')";
     }
 }
