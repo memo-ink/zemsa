@@ -27,6 +27,11 @@ gray:#8D929D
 	src: url('fonts/gotham-medium_0.ttf');
 }
 
+*{
+	-webkit-appearance: none;
+  -moz-appearance: none;
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -675,6 +680,14 @@ imenu:focus {
 	padding: 1px 5px;
 }
 
+input:focus, input.form-control:focus, textarea:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
 .btn {
 	width: 90%;
 	padding: 20px 0 15px 0;
@@ -730,9 +743,10 @@ imenu:focus {
 #msj {
 	font-family: gotham;
 	font-size: 18px;
-	width: 90%;
+	width: 92%;
 	height: 160px;
 	resize: none;
+	border: 0;
 }
 
 #mapa {
@@ -1369,9 +1383,11 @@ imenu:focus {
 		max-width: 90%;
 		/*75%;*/
 	}
-	.input input,
-	#msj {
+	.input input {
 		width: 97%;
+	}
+	#msj {
+		width: 99%;
 	}
 }
 
