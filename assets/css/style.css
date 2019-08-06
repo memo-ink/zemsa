@@ -1286,7 +1286,7 @@ imenu:focus {
 
 @media (max-width: 980px) {
 	.mapa,
-	.formulario {
+	.formulario,.contact1,.contact2 {
 		width: 99%;
 		padding:0;
 	}
