@@ -1488,6 +1488,13 @@ input:focus, input.form-control:focus, textarea:focus {
 	.tit-conte {
 		margin: 40px auto 20px auto;
 	}
+	.contact1 a{
+		display: block;
+		text-align: center;
+	}
+	.contact2{
+		text-align: center;
+	}
 }
 
 @media (max-width: 450px) {
