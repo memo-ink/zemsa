@@ -1168,8 +1168,24 @@ imenu:focus {
 }
 /*RESPONSIVO*/
 @media (min-width:1440px){
+	.about-conte {
+    background: #444;
+    width: 980px;
+    margin: auto;
+}
+	.about-conte2 {
+    background: #fff;
+    width: 830px;
+    height: 480px;
+    float: left;
+}
+.article-about {
+    background: #eee;
+    font-size: 22px;
+    padding: 45px 10%;
+}
 	.article-p {
-    font-size: 23px;
+    font-size: 22px !important;
     font-weight: normal;
     padding-bottom: 58px;
     padding-top: 50px;
@@ -1188,13 +1204,13 @@ imenu:focus {
 	}
 	.art-m {
 		padding-top: 50px !important;
-		font-size: 23px;
+		font-size: 22px;
 		width: 500px;
 	}
 
 	.art-v {
 		padding-top: 90px !important;
-		font-size: 23px;
+		font-size: 22px;
 		width: 500px;
 		float: right;
 	}
