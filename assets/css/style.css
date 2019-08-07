@@ -211,12 +211,14 @@ section {
 }
 
 .navbar {
-	/*display: inline-block;*/
+	display: none;
 	float: right;
 	margin: 0;
 	width: 600px;
 }
-
+.navbar2 {
+	display: inherit;
+}
 .navbar-nav {
 	list-style: none;
 	margin: 15px 50px 15px 0px;
@@ -1233,6 +1235,7 @@ input:focus, input.form-control:focus, textarea:focus {
 		width: 500px;
 		float: right;
 	}
+
 }
 
 @media (max-width: 1200px) {
@@ -1352,18 +1355,28 @@ input:focus, input.form-control:focus, textarea:focus {
 	}
 	.navbar {
 		position: absolute;
-		z-index: 1000;
+		z-index: 10;
 		right: 0;
+		top:0;
 		display: none;
-		/*none;*/
-		width: 245px;
-		margin-top: 57px;
+		width: 100%;
+		height: 800px;
+		margin-top: 0px;
 		background: #930000;
+		padding-top: 100px;
+	}
+	.navbar2 {
+		display: none;
+	}
+	.navbar-nav{
+		text-align: center;
+		margin: 15px 0px 15px 0px
 	}
 	.navbar-nav li {
 		font-size: 20px;
 		display: inherit;
 		width: auto;
+		padding: 25px 12px;
 	}
 	.navbar-nav li:hover {
 		background: #B20800;
@@ -1441,9 +1454,9 @@ input:focus, input.form-control:focus, textarea:focus {
 	.btn-menu {
 		margin: 20px 20px 0px 0px;
 	}
-	.navbar {
+	/*.navbar {
 		margin-top: 30px;
-	}
+	}*/
 }
 
 @media (max-width: 500px) {
