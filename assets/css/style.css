@@ -1028,7 +1028,7 @@ textarea:focus {
     background: #b20800;
     color: #fff;
     font-family: Avenir;
-    padding: 0 8px;
+    padding: 2px 8px 0px;
     margin-bottom: 0;
 }
 
@@ -1270,7 +1270,7 @@ textarea:focus {
         height: 500px;
     }
     .ver {
-        padding: 467px 25px 12px 25px;
+        padding: 473px 25px 6px 25px;
     }
     .trian-menu {
         border-right: 580px solid #B20800;
